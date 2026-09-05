@@ -118,8 +118,6 @@ Excel dashboard on employee **attrition, demographics, job satisfaction and depa
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" height="165" />
 </p>
 
 <p align="center">
