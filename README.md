@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./assets/header-banner.png" alt="Sai M — Data Analyst" width="100%" />
+  <img width="1600" height="544" alt="image" src="https://github.com/user-attachments/assets/6a1305ed-e2ae-4e76-8540-99037f04e02c" />
+
 </p>
 
 <h1 align="center">Hi, I'm Sai M 👋</h1>
@@ -48,7 +49,7 @@
 ## 📂 Featured Projects
 
 ### 🏦 Bank Loan Analysis — SQL
-<img src="./assets/bank-loan-sql.png" alt="Bank Loan SQL project" width="420" align="right" />
+<img width="1088" height="608" alt="image" src="https://github.com/user-attachments/assets/2ce70d14-03e6-4cc4-8977-5c0790809c02" />
 
 End-to-end loan portfolio analysis in **SQL Server (T-SQL)**: loan approvals, funded amounts, interest rates, debt-to-income and good-vs-bad loan splits. Uses CTEs and window functions to build month-over-month and state-wise KPI views that a lending team can act on.
 
