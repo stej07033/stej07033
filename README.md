@@ -60,7 +60,7 @@ End-to-end loan portfolio analysis in **SQL Server (T-SQL)**: loan approvals, fu
 <br clear="all" />
 
 ### 📗 Bank Loan Dashboard — Excel
-<img src="./assets/bank-loan-excel.png" alt="Bank Loan Excel project" width="420" align="right" />
+<img width="1088" height="608" alt="image" src="https://github.com/user-attachments/assets/467706c2-faf1-4d69-8977-489ebb2b27c8" />
 
 Interactive **Excel dashboard** on the same lending data: KPI cards for total applications, funded amount, amount received and average interest rate, with slicers for grade, purpose, term and region so stakeholders can self-serve answers.
 
@@ -71,7 +71,7 @@ Interactive **Excel dashboard** on the same lending data: KPI cards for total ap
 <br clear="all" />
 
 ### 📱 PhonePe Transaction Dashboard
-<img src="./assets/phonepe-dashboard.png" alt="PhonePe dashboard project" width="420" align="right" />
+<img width="1088" height="608" alt="image" src="https://github.com/user-attachments/assets/d3e5e684-2862-42d4-afc1-902c05acde17" />
 
 Digital-payments analytics on **PhonePe Pulse** data: transaction volume and value trends by state, district, quarter and payment category, surfaced in a dashboard that highlights growth pockets and top-performing regions.
 
@@ -82,7 +82,7 @@ Digital-payments analytics on **PhonePe Pulse** data: transaction volume and val
 <br clear="all" />
 
 ### 🛵 Swiggy End-to-End Analytics
-<img src="./assets/swiggy-project.png" alt="Swiggy end-to-end analytics project" width="420" align="right" />
+<img width="1088" height="608" alt="image" src="https://github.com/user-attachments/assets/4c95a645-c59e-40a2-ac09-8192ab5aed91" />
 
 **394,800+** food-delivery records taken through Python → SQL Server → Excel to answer 20+ business questions on revenue, orders and restaurant performance. Includes a star schema (fact + dimension tables) and a final Excel dashboard.
 
@@ -93,7 +93,7 @@ Digital-payments analytics on **PhonePe Pulse** data: transaction volume and val
 <br clear="all" />
 
 ### 👥 HR Analytics Dashboard
-<img src="./assets/hr-dashboard.png" alt="HR analytics dashboard project" width="420" align="right" />
+<img width="1088" height="608" alt="image" src="https://github.com/user-attachments/assets/f7ec507d-7e1d-421c-aa12-4285b5a1bcba" />
 
 Excel dashboard on employee **attrition, demographics, job satisfaction and department performance**, with KPI cards for headcount, attrition rate, average age and satisfaction score.
 
