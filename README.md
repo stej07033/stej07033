@@ -1,266 +1,191 @@
-<!-- ========================================================= -->
-
-<!--                 SAI — DATA COMMAND CENTER                -->
-
-<!-- ========================================================= -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0f172a,100:312e81&text=SAI%20TEJ&fontSize=60&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=DATA%20ANALYST%20%7C%20SQL%20%7C%20PYTHON%20%7C%20POWER%20BI&descAlignY=62&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:020617,100:001f3f&height=180&text=SAI%20TEJ&fontSize=58&fontColor=00D9FF&animation=fadeIn&fontAlignY=45"/>
 
 <br>
 
-<a href="https://github.com/stej07033">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=38BDF8&center=true&vCenter=true&width=750&lines=Turning+Raw+Data+into+Business+Insights+%F0%9F%93%8A;SQL+%7C+Python+%7C+Excel+%7C+Power+BI+%F0%9F%9A%80;Exploring+Data.+Finding+Patterns.+Creating+Impact.;Welcome+to+my+Data+Command+Center+%F0%9F%96%A5%EF%B8%8F" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2200&pause=700&color=00D9FF&center=true&vCenter=true&width=800&lines=DATA+ANALYST+%2F%2F+SYSTEM+ONLINE;SQL+%7C+PYTHON+%7C+EXCEL+%7C+POWER+BI;RAW+DATA+%E2%86%92+INSIGHTS+%E2%86%92+DECISIONS;WELCOME+TO+MY+ANALYTICS+OS"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00D9FF?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/ROLE-DATA_ANALYST-00D9FF?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/STATUS-BUILDING-00D9FF?style=for-the-badge&labelColor=000000"/>
+
+</div>
+
+---
+
+## `01 // SYSTEM PROFILE`
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                    ANALYTICS OS v2.0                         │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  USER       : MADANAPALLI SAI                               │
+│  ROLE       : ASPIRING DATA ANALYST                         │
+│  LOCATION   : BANGALORE, INDIA                             │
+│  EDUCATION  : B.TECH — MECHANICAL ENGINEERING              │
+│                                                              │
+│  CORE       : SQL • PYTHON • EXCEL • POWER BI               │
+│  INTEREST   : DATA ANALYTICS • AI • BUSINESS INTELLIGENCE  │
+│                                                              │
+│  MISSION    : TURN DATA INTO ACTIONABLE INSIGHTS            │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `02 // DATA ENGINE`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,mysql,postgres,git,github&theme=dark"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/EXCEL-ANALYTICS-00D9FF?style=for-the-badge&logo=microsoftexcel&logoColor=00D9FF&labelColor=000000"/>
+<img src="https://img.shields.io/badge/POWER%20BI-BUSINESS%20INTELLIGENCE-00D9FF?style=for-the-badge&logo=powerbi&logoColor=00D9FF&labelColor=000000"/>
+<img src="https://img.shields.io/badge/PANDAS-DATA%20ANALYSIS-00D9FF?style=for-the-badge&logo=pandas&logoColor=00D9FF&labelColor=000000"/>
+<img src="https://img.shields.io/badge/NUMPY-COMPUTATION-00D9FF?style=for-the-badge&logo=numpy&logoColor=00D9FF&labelColor=000000"/>
+
+</div>
+
+---
+
+## `03 // PROCESSING PIPELINE`
+
+```text
+                ┌──────────────┐
+                │   RAW DATA   │
+                └──────┬───────┘
+                       │
+                       ▼
+             ┌──────────────────┐
+             │ DATA CLEANING    │
+             │ Python / Excel   │
+             └────────┬─────────┘
+                      │
+                      ▼
+             ┌──────────────────┐
+             │ DATA QUERYING    │
+             │ SQL / PostgreSQL │
+             └────────┬─────────┘
+                      │
+                      ▼
+             ┌──────────────────┐
+             │ EDA + ANALYSIS   │
+             │ Python / Pandas  │
+             └────────┬─────────┘
+                      │
+                      ▼
+             ┌──────────────────┐
+             │ VISUALIZATION    │
+             │ Power BI / Excel │
+             └────────┬─────────┘
+                      │
+                      ▼
+                ┌──────────────┐
+                │   INSIGHTS   │
+                └──────────────┘
+```
+
+---
+
+# `04 // PROJECT DATABASE`
+
+### 🟦 SWIGGY ANALYTICS
+
+```text
+┌─────────────────────────────────────────────┐
+│ PROJECT_ID : SWIGGY_ANALYTICS               │
+├─────────────────────────────────────────────┤
+│ ENGINE     : SQL + PYTHON + EXCEL           │
+│ TYPE       : END-TO-END ANALYTICS           │
+│ STATUS     : ████████████████████ ONLINE    │
+└─────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+<a href="https://github.com/stej07033/Swiggy_Sql_Project">
+<img src="https://img.shields.io/badge/OPEN-SQL_PROJECT-00D9FF?style=for-the-badge&labelColor=000000"/>
 </a>
 
-<br><br>
+<a href="https://github.com/stej07033/Swiggy_Excel">
+<img src="https://img.shields.io/badge/OPEN-EXCEL_PROJECT-00D9FF?style=for-the-badge&labelColor=000000"/>
+</a>
 
-<img src="https://komarev.com/ghpvc/?username=stej07033&label=PROFILE+VIEWS&color=38bdf8&style=for-the-badge"/>
-
-<img src="https://img.shields.io/github/followers/stej07033?label=FOLLOWERS&style=for-the-badge&color=6366f1"/>
-
-<img src="https://img.shields.io/github/stars/stej07033?label=STARS&style=for-the-badge&color=a855f7"/>
+<a href="https://github.com/stej07033/Swiggy_python_project">
+<img src="https://img.shields.io/badge/OPEN-PYTHON_PROJECT-00D9FF?style=for-the-badge&labelColor=000000"/>
+</a>
 
 </div>
 
 ---
 
-# 🛰️ `DATA COMMAND CENTER`
-
-> **Welcome, I'm Sai.**
->
-> I turn messy datasets into structured insights, meaningful KPIs and actionable business stories.
+### 🟦 BANK LOAN ANALYTICS
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                    SAI • ANALYTICS ENGINE                   │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   RAW DATA  ──►  CLEAN  ──►  ANALYZE  ──►  VISUALIZE      │
-│      ↓            ↓            ↓              ↓             │
-│   CSV / SQL    Pandas       SQL / Python    Power BI       │
-│                                                             │
-│                 ──► BUSINESS INSIGHT ──►                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│ PROJECT_ID : BANK_LOAN_ANALYTICS            │
+├─────────────────────────────────────────────┤
+│ ENGINE     : SQL + PYTHON + EXCEL           │
+│ ANALYSIS   : LOAN / KPI / RISK              │
+│ STATUS     : ████████████████████ ONLINE    │
+└─────────────────────────────────────────────┘
 ```
 
 <div align="center">
 
-### ⚡ CURRENT MODE
+<a href="https://github.com/stej07033/BANK_LOAN_SQL">
+<img src="https://img.shields.io/badge/SQL-REPOSITORY-00D9FF?style=for-the-badge&labelColor=000000"/>
+</a>
 
-`DATA ANALYST`   `BUILDING PROJECTS`   `LEARNING AI`   `OPEN TO OPPORTUNITIES`
+<a href="https://github.com/stej07033/Bank_python">
+<img src="https://img.shields.io/badge/PYTHON-REPOSITORY-00D9FF?style=for-the-badge&labelColor=000000"/>
+</a>
+
+<a href="https://github.com/stej07033/BANK_LOAN_EXCEL_PROJECT">
+<img src="https://img.shields.io/badge/EXCEL-REPOSITORY-00D9FF?style=for-the-badge&labelColor=000000"/>
+</a>
 
 </div>
 
 ---
 
-# 👨‍💻 `WHO AM I?`
-
-```python
-class Sai:
-
-    name = "Madanapalli Sai"
-
-    role = "Aspiring Data Analyst"
-
-    education = "B.Tech — Mechanical Engineering"
-
-    location = "Bangalore, India"
-
-    focus = [
-        "Data Analytics",
-        "SQL",
-        "Python",
-        "Excel",
-        "Power BI"
-    ]
-
-    currently_learning = [
-        "Advanced SQL",
-        "Data Visualization",
-        "Python Analytics",
-        "AI for Data Analytics"
-    ]
-
-    mission = "Transform data into decisions."
-```
-
----
-
-# 🧠 `ANALYTICS DNA`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,excel&theme=dark" />
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=pandas,numpy,git,github&theme=dark" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/DATA%20ANALYTICS-38BDF8?style=for-the-badge&logo=databricks&logoColor=white"/>
-<img src="https://img.shields.io/badge/EDA-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/BI-6366F1?style=for-the-badge"/>
-
-</div>
-
----
-
-# 🔬 `MY DATA PIPELINE`
-
-<div align="center">
-
-```text
-          ┌─────────────┐
-          │   DATA      │
-          │ COLLECTION  │
-          └──────┬──────┘
-                 ↓
-        ┌─────────────────┐
-        │ DATA CLEANING   │
-        │ Python / Excel  │
-        └────────┬────────┘
-                 ↓
-        ┌─────────────────┐
-        │ DATA ANALYSIS   │
-        │ SQL / Pandas    │
-        └────────┬────────┘
-                 ↓
-        ┌─────────────────┐
-        │ KPI & INSIGHTS  │
-        │ Business Logic  │
-        └────────┬────────┘
-                 ↓
-        ┌─────────────────┐
-        │ VISUALIZATION   │
-        │ Power BI / Excel│
-        └────────┬────────┘
-                 ↓
-        ┌─────────────────┐
-        │ DECISION MAKING │
-        └─────────────────┘
-```
-
-</div>
-
----
-
-# 🚀 `PROJECT LAB`
-
-## 🛒 Swiggy Analytics — End-to-End
-
-**SQL + Excel + Python**
-
-```text
-394K+ RECORDS
-     │
-     ├── SQL ANALYSIS
-     │
-     ├── DATA CLEANING
-     │
-     ├── CUSTOMER ANALYSIS
-     │
-     ├── RESTAURANT ANALYSIS
-     │
-     └── BUSINESS INSIGHTS
-```
-
-[![SQL](https://img.shields.io/badge/SQL-ANALYSIS-38BDF8?style=for-the-badge\&logo=mysql\&logoColor=white)](https://github.com/stej07033/Swiggy_Sql_Project)
-[![Excel](https://img.shields.io/badge/EXCEL-DASHBOARD-22C55E?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)](https://github.com/stej07033/Swiggy_Excel)
-[![Python](https://img.shields.io/badge/PYTHON-EDA-F59E0B?style=for-the-badge\&logo=python\&logoColor=white)](https://github.com/stej07033/Swiggy_python_project)
-
----
-
-## 🏦 Bank Loan Analytics
-
-**SQL + Python + Excel**
-
-```text
-LOAN DATA
-    ↓
-CLEANING
-    ↓
-KPI ANALYSIS
-    ↓
-GOOD vs BAD LOANS
-    ↓
-MTD / MONTHLY ANALYSIS
-    ↓
-FINANCIAL INSIGHTS
-```
-
-[![SQL](https://img.shields.io/badge/BANK%20LOAN-SQL-6366F1?style=for-the-badge\&logo=postgresql\&logoColor=white)](https://github.com/stej07033/BANK_LOAN_SQL)
-[![Python](https://img.shields.io/badge/BANK%20LOAN-PYTHON-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://github.com/stej07033/Bank_python)
-[![Excel](https://img.shields.io/badge/BANK%20LOAN-EXCEL-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)](https://github.com/stej07033/BANK_LOAN_EXCEL_PROJECT)
-
----
-
-# 📊 `PROJECT RESULTS`
-
-<div align="center">
-
-### 🛒 SWIGGY ANALYTICS
-
-<img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Orders','Customers','Restaurants','Other'],datasets:[{data:[45,25,20,10]}]},options:{plugins:{title:{display:true,text:'Analytics Distribution'}}}}" width="430"/>
-
-<br><br>
-
-### 🏦 BANK LOAN ANALYTICS
-
-<img src="https://quickchart.io/chart?c={type:'bar',data:{labels:['Good%20Loans','Bad%20Loans','Applications','Funded'],datasets:[{label:'Analytics%20KPI',data:[86,14,100,72]}]},options:{plugins:{title:{display:true,text:'Loan Analytics KPI'}}}}" width="600"/>
-
-</div>
-
-> Replace these generated demo charts with your **real dashboard screenshots** when you want the README to showcase actual project output.
-
----
-
-# ⚡ `THE 4-LAYER STACK`
-
-<div align="center">
-
-| LAYER | TECHNOLOGY   | PURPOSE                   |
-| ----- | ------------ | ------------------------- |
-| 🧹    | **Excel**    | Cleaning + Reporting      |
-| 🧠    | **SQL**      | Querying + Business Logic |
-| 🐍    | **Python**   | EDA + Automation          |
-| 📊    | **Power BI** | Dashboard + Storytelling  |
-
-</div>
-
----
-
-# 🧩 `SQL MODE`
+# `05 // ANALYTICS TERMINAL`
 
 ```sql
+-- TOP CUSTOMERS
+
 SELECT
     customer_id,
-    SUM(quantity * unit_price) AS revenue,
-    COUNT(order_id) AS orders
+    COUNT(order_id) AS total_orders,
+    SUM(quantity * unit_price) AS revenue
 FROM orders
 GROUP BY customer_id
 ORDER BY revenue DESC
 LIMIT 10;
 ```
 
-### 🎯 SQL Focus
-
 ```text
-████████████████████████████████████████  JOINS
-██████████████████████████████████████░░  GROUP BY
-██████████████████████████████████████░░  WINDOW FUNCTIONS
-████████████████████████████████████░░░░  CTEs
-██████████████████████████████████░░░░░░  SUBQUERIES
-████████████████████████████████████░░░░  BUSINESS QUERIES
+> EXECUTING QUERY...
+
+[████████████████████████████████████] 100%
+
+STATUS       : SUCCESS
+ROWS         : 10
+ENGINE       : SQL
+OUTPUT       : BUSINESS INSIGHTS
 ```
 
 ---
 
-# 🐍 `PYTHON MODE`
+# `06 // PYTHON ENGINE`
 
 ```python
 import pandas as pd
@@ -274,110 +199,98 @@ df["revenue"] = (
     df["unit_price"]
 )
 
-insights = (
-    df.groupby("category")["revenue"]
+result = (
+    df.groupby("category")
+      ["revenue"]
       .sum()
       .sort_values(ascending=False)
 )
 
-print(insights)
+print(result)
 ```
-
-### Python Analytics Stack
-
-`Pandas` • `NumPy` • `Matplotlib` • `Seaborn` • `Jupyter`
-
----
-
-# 📈 `POWER BI MODE`
 
 ```text
-                 POWER BI
-                    │
-          ┌─────────┴─────────┐
-          ↓                   ↓
-       DATA MODEL          DAX / KPI
-          │                   │
-          └─────────┬─────────┘
-                    ↓
-              DASHBOARD
-                    ↓
-             BUSINESS STORY
+PYTHON ENGINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LOAD DATA       ████████████████████
+CLEAN DATA      ████████████████████
+TRANSFORM       ████████████████████
+ANALYZE         ████████████████████
+GENERATE        ████████████████████
+
+SYSTEM STATUS : READY
 ```
-
-**Dashboard mindset:**
-
-`KPI → Trend → Comparison → Root Cause → Action`
 
 ---
 
-# 🧪 `CURRENT EXPERIMENT`
+# `07 // RESULT CENTER`
 
 <div align="center">
 
-```text
-╔══════════════════════════════════════════════════════╗
-║                SAI ANALYTICS LAB                     ║
-╠══════════════════════════════════════════════════════╣
-║                                                      ║
-║   SQL              ████████████████████░░             ║
-║   PYTHON           ██████████████████░░░             ║
-║   EXCEL            ████████████████████░░             ║
-║   POWER BI         █████████████████░░░░             ║
-║   AI + ANALYTICS   █████████████░░░░░░░             ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
+### 📊 PROJECT PERFORMANCE
+
+<img src="https://quickchart.io/chart?c={type:'line',data:{labels:['Jan','Feb','Mar','Apr','May','Jun'],datasets:[{label:'Analytics%20Trend',data:[35,48,44,62,76,88],fill:false}]},options:{plugins:{title:{display:true,text:'Analytics%20Trend'}}}}" width="650"/>
 
 </div>
 
----
-
-# 🏆 `WHAT I BRING`
-
-<div align="center">
-
-### 🔍 ANALYTICAL THINKING
-
-Break complex business questions into measurable problems.
-
-### 🧹 DATA CLEANING
-
-Transform messy datasets into analysis-ready data.
-
-### 🧠 SQL PROBLEM SOLVING
-
-Write queries that answer real business questions.
-
-### 📊 VISUAL STORYTELLING
-
-Turn numbers into dashboards people can understand.
-
-### 🚀 CONTINUOUS LEARNING
-
-Currently expanding from analytics toward AI-powered data solutions.
-
-</div>
+> **Note:** The chart above is a visual demo for the README design. Replace it with actual project-result charts/screenshots when available.
 
 ---
 
-# 📡 `GITHUB TELEMETRY`
+# `08 // DASHBOARD WALL`
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&theme=tokyonight&hide_border=true"/>
+```text
+╔════════════════╦════════════════╦════════════════╗
+║   SQL ENGINE   ║ PYTHON ENGINE  ║ EXCEL ENGINE   ║
+║                ║                ║                ║
+║    ACTIVE      ║    ACTIVE      ║    ACTIVE      ║
+╠════════════════╬════════════════╬════════════════╣
+║                ║                ║                ║
+║   QUERY DATA   ║   ANALYZE      ║   VISUALIZE    ║
+║                ║                ║                ║
+╚════════════════╩════════════════╩════════════════╝
+```
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=stej07033&theme=tokyonight&hide_border=true"/>
+```text
+╔════════════════════════════════════════════════════╗
+║                 BUSINESS INTELLIGENCE              ║
+╠════════════════════════════════════════════════════╣
+║                                                    ║
+║     DATA ─────► INSIGHT ─────► DECISION            ║
+║                                                    ║
+║     CLEAN       ANALYZE         ACT                ║
+║                                                    ║
+╚════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-# 🐍 `CONTRIBUTION MATRIX`
+# `09 // GITHUB TELEMETRY`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&hide_border=true&theme=github_dark&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
+
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=stej07033&theme=dark&hide_border=true&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&hide_border=true&theme=github_dark&title_color=00D9FF"/>
+
+</div>
+
+---
+
+# `10 // CONTRIBUTION MATRIX`
 
 <div align="center">
 
@@ -387,49 +300,82 @@ Currently expanding from analytics toward AI-powered data solutions.
 
 ---
 
-# 🌐 `CONNECT`
+# `11 // ACTIVE PROJECTS`
 
 <div align="center">
 
 <a href="https://github.com/stej07033">
-<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/>
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=Swiggy_Sql_Project&theme=github_dark&hide_border=true&title_color=00D9FF"/>
+
 </a>
 
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<a href="https://github.com/stej07033">
 
-<a href="https://www.instagram.com/_saitej07/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=BANK_LOAN_SQL&theme=github_dark&hide_border=true&title_color=00D9FF"/>
+
 </a>
 
 </div>
 
 ---
 
-# 🎯 `MISSION`
+# `12 // LEARNING PROTOCOL`
+
+```text
+                     SAI LEARNING OS
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+        SQL             PYTHON             BI
+          │                │                │
+          ▼                ▼                ▼
+      Advanced          Pandas           Power BI
+      Queries           EDA              Dashboards
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                       AI + DATA
+                           │
+                           ▼
+                    NEXT GENERATION
+                     ANALYTICS
+```
+
+---
+
+# `13 // CAREER OBJECTIVE`
 
 <div align="center">
 
 ```text
-        DATA
-         ↓
-      PATTERNS
-         ↓
-      INSIGHTS
-         ↓
-      DECISIONS
-         ↓
-       IMPACT
+┌──────────────────────────────────────────────────┐
+│                                                  │
+│       LOOKING FOR DATA ANALYST OPPORTUNITIES    │
+│                                                  │
+│       SQL • PYTHON • EXCEL • POWER BI           │
+│                                                  │
+│       READY TO LEARN • BUILD • ANALYZE          │
+│                                                  │
+└──────────────────────────────────────────────────┘
 ```
 
-### "I don't just analyze data.
+</div>
 
-### I build stories from it."
+---
 
-<br>
+# `14 // CONNECT`
 
-**Open to Data Analyst / Business Analyst opportunities.**
+<div align="center">
+
+<a href="https://github.com/stej07033">
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00D9FF"/>
+</a>
+
+<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
+<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00D9FF"/>
+</a>
 
 </div>
 
@@ -437,16 +383,16 @@ Currently expanding from analytics toward AI-powered data solutions.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:0f172a,100:020617&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001f3f,100:00D9FF&height=120&section=footer"/>
 
-### ⭐ If you find my projects useful, consider giving them a star!
+### `SYSTEM MESSAGE`
 
-**Built with curiosity • powered by data • driven by insights**
+```text
+DATA IS EVERYWHERE.
+INSIGHTS ARE RARE.
+I BUILD THE BRIDGE.
+```
+
+**⭐ Star a repository if you find it useful.**
 
 </div>
-
-<!-- ========================================================= -->
-
-<!--                    END OF PROFILE README                 -->
-
-<!-- ========================================================= -->
