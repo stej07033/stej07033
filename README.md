@@ -1,417 +1,394 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f4c81,100:06b6d4&height=200&section=header&text=MADANAPALLI%20SAI&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<!-- ==================== HEADER ==================== -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Aspiring+Data+Analyst;SQL+%7C+Python+%7C+Excel+%7C+Power+BI;Turning+Raw+Data+into+Business+Insights;Data+Cleaning+%7C+EDA+%7C+KPI+Analysis;Building+Real-World+Analytics+Projects"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:075985,100:06b6d4&height=210&section=header&text=MADANAPALLI%20SAI&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
-<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=800&lines=Aspiring+Data+Analyst;SQL+%7C+Python+%7C+Excel+%7C+Power+BI;Turning+Data+into+Insights;Analytics+%7C+Visualization+%7C+Business+Insights;Building+Real-World+Data+Projects"/>
 
-<a href="https://github.com/stej07033">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"/>
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=stej07033&style=for-the-badge&color=06b6d4"/>
+
+<a href="https://github.com/stej07033?tab=repositories">
+<img src="https://img.shields.io/badge/PROJECTS-Explore-2563EB?style=for-the-badge&logo=github"/>
 </a>
 
 <a href="https://www.linkedin.com/in/madanapalli-sai-19b835389">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
-
-<img src="https://komarev.com/ghpvc/?username=stej07033&style=for-the-badge&color=06b6d4"/>
 
 </div>
 
 ---
 
-# 👋 Hello, I'm Sai
+# 👋 Hi, I'm Sai
 
-> **Aspiring Data Analyst | SQL | Python | Excel | Power BI**
+<div align="center">
 
-I enjoy transforming raw data into meaningful insights that help understand **customers, sales, finance, operations, and business performance**.
+### 📊 Aspiring Data Analyst
 
-🎓 B.Tech – Mechanical Engineering
-📊 Data Analytics Aspirant
-💻 SQL • Python • Excel • Power BI
-🔎 Data Cleaning • EDA • KPI Analysis
-📈 Dashboard Development
-🚀 Building practical end-to-end analytics projects
-🎯 Open to Data Analyst opportunities
+**SQL • Python • Excel • Power BI • Data Visualization**
+
+</div>
 
 ---
 
-# 🧬 My Data Analyst DNA
+# 🧬 DATA ANALYTICS PIPELINE
 
 <div align="center">
 
 ```text
-              ┌──────────────┐
-              │   RAW DATA   │
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │ DATA CLEANING│
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │ SQL ANALYSIS │
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │ PYTHON / EDA │
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │ KPI ANALYSIS │
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │  DASHBOARD   │
-              └──────┬───────┘
-                     ↓
-              ┌──────────────┐
-              │  INSIGHTS 💡 │
-              └──────────────┘
-
-        DATA → ANALYSIS → VISUALIZATION → DECISION
+       📥 RAW DATA
+            │
+            ▼
+      🧹 DATA CLEANING
+            │
+            ▼
+       🗄️ SQL ANALYSIS
+            │
+            ▼
+       🐍 PYTHON EDA
+            │
+            ▼
+       📊 KPI ANALYSIS
+            │
+            ▼
+      📈 VISUALIZATION
+            │
+            ▼
+       💡 INSIGHTS
+            │
+            ▼
+      🚀 BUSINESS VALUE
 ```
 
 </div>
 
 ---
 
-# 🛠️ Technical Skills
+# 🛠️ TECH STACK
 
 <div align="center">
 
-### 📊 Data Analytics
+<img src="https://skillicons.dev/icons?i=python,mysql,postgresql,git,github,vscode"/>
+
+<br><br>
 
 <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-
-### 📈 Visualization
-
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"/>
 
-### ⚙️ Tools
+</div>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,postgresql"/>
+---
+
+# 📊 PROJECT RESULTS
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&duration=1800&pause=700&color=06B6D4&center=true&vCenter=true&width=750&lines=PROJECT+RESULTS+%F0%9F%93%8A;ANALYZE+%E2%86%92+VISUALIZE+%E2%86%92+INSIGHT;REAL+DATA.+REAL+ANALYSIS.+REAL+RESULTS."/>
 
 </div>
 
 ---
 
-# 🚀 Featured Projects
-
-## 🏦 01 — Bank Loan Analysis
+# 🏦 BANK LOAN ANALYSIS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/SQL-Analysis-336791?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-EDA-3776AB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Excel-Dashboard-217346?style=for-the-badge"/>
+### 📈 SQL • Python • Excel
+
+<br>
+
+<!-- Replace with your animated result GIF -->
+
+<img src="./assets/bank-loan-results.gif" width="95%"/>
+
+<br><br>
+
+|       📊 KPI       |    📈 Analysis    |
+| :----------------: | :---------------: |
+|  💰 Funded Amount  |    Loan Funding   |
+| 💵 Amount Received |     Repayment     |
+|   📥 Applications  |    Loan Demand    |
+|    🟢 Good Loans   | Portfolio Quality |
+|    🔴 Bad Loans    |   Risk Analysis   |
+|    📅 MTD / YTD    |   Time Analysis   |
+
+<br>
+
+<a href="https://github.com/stej07033/BANK_LOAN_SQL">
+<img src="https://img.shields.io/badge/SQL%20RESULTS-View-336791?style=for-the-badge&logo=postgresql"/>
+</a>
+
+<a href="https://github.com/stej07033/Bank_python">
+<img src="https://img.shields.io/badge/PYTHON%20RESULTS-View-3776AB?style=for-the-badge&logo=python"/>
+</a>
+
+<a href="https://github.com/stej07033/BANK_LOAN_EXCEL_PROJECT">
+<img src="https://img.shields.io/badge/EXCEL%20RESULTS-View-217346?style=for-the-badge&logo=microsoftexcel"/>
+</a>
 
 </div>
 
-### 🔍 Project Overview
+---
 
-An end-to-end bank loan analytics project focused on understanding **loan applications, funded amounts, repayments, loan quality, and customer/portfolio trends**.
+# 🛵 SWIGGY ANALYTICS
 
-### 📌 Analysis Performed
+<div align="center">
 
-* Total loan applications
-* Monthly loan application trends
-* Funded amount analysis
-* Amount received analysis
-* Good Loan vs Bad Loan
-* Loan status analysis
-* Loan term analysis
-* Home ownership analysis
-* Customer segmentation
-* Month-to-date analysis
-* Year-to-date analysis
+### 📊 SQL • Python • Excel
 
-### 📊 Key Results
+<br>
+
+<img src="./assets/swiggy-results.gif" width="95%"/>
+
+<br><br>
 
 ```text
-┌──────────────────────────────────────────┐
-│          BANK LOAN ANALYTICS             │
-├──────────────────────────────────────────┤
-│ 📥 Loan Applications     → KPI Analysis │
-│ 💰 Funded Amount         → Trend        │
-│ 💵 Amount Received       → Performance  │
-│ 🟢 Good Loans            → Portfolio    │
-│ 🔴 Bad Loans             → Risk         │
-│ 📅 MTD / YTD             → Monitoring   │
-└──────────────────────────────────────────┘
+ORDERS       ████████████████████
+CUSTOMERS    █████████████████
+REVENUE      ███████████████████
+RESTAURANTS  ███████████████
+CATEGORIES   ████████████████
 ```
 
-### 🧰 Tools
+<br>
 
-`SQL` `Python` `Pandas` `Excel` `Data Cleaning` `EDA`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1500&pause=500&color=38BDF8&center=true&vCenter=true&width=650&lines=Customer+Analysis;Order+Analysis;Revenue+Analysis;Restaurant+Analysis;Business+KPI+Analysis"/>
 
-### 🔗 Project Links
+<br><br>
 
-[SQL Project](https://github.com/stej07033/BANK_LOAN_SQL) •
-[Python Project](https://github.com/stej07033/Bank_python) •
-[Excel Project](https://github.com/stej07033/BANK_LOAN_EXCEL_PROJECT)
+<a href="https://github.com/stej07033/Swiggy_Sql_Project">
+<img src="https://img.shields.io/badge/SQL-RESULTS-336791?style=for-the-badge&logo=postgresql"/>
+</a>
 
-### 📸 Project Result
+<a href="https://github.com/stej07033/Swiggy_Excel">
+<img src="https://img.shields.io/badge/EXCEL-RESULTS-217346?style=for-the-badge&logo=microsoftexcel"/>
+</a>
 
-> Replace the path below with your actual dashboard screenshot.
-
-```html
-<img src="./images/bank-loan-dashboard.png" width="90%"/>
-```
-
----
-
-# 🛵 02 — Swiggy End-to-End Analytics
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/SQL-Business%20Analysis-336791?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-EDA-3776AB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Excel-Analytics-217346?style=for-the-badge"/>
+<a href="https://github.com/stej07033/Swiggy_python_project">
+<img src="https://img.shields.io/badge/PYTHON-RESULTS-3776AB?style=for-the-badge&logo=python"/>
+</a>
 
 </div>
 
-### 🔍 Project Overview
-
-An end-to-end Swiggy analytics project using **SQL, Excel and Python** to explore orders, customers, restaurants, sales and business performance.
-
-### 📌 Analysis Performed
-
-* Customer analysis
-* Restaurant analysis
-* Order analysis
-* Revenue analysis
-* Food category analysis
-* Location analysis
-* Order trends
-* Customer behavior
-* Business KPI analysis
-
-### 📊 Project Results
-
-```text
-     RAW SWIGGY DATA
-             ↓
-       DATA CLEANING
-             ↓
-        SQL QUERIES
-             ↓
-       PYTHON EDA
-             ↓
-      EXCEL ANALYSIS
-             ↓
-       BUSINESS KPIs
-             ↓
-       💡 INSIGHTS
-```
-
-### 🧠 Business Insights
-
-📌 Identified important customer/order patterns
-📌 Analyzed revenue-related trends
-📌 Compared business performance across categories
-📌 Used SQL to answer business questions
-📌 Used Python for exploratory data analysis
-
-### 🔗 Project Links
-
-[SQL](https://github.com/stej07033/Swiggy_Sql_Project) •
-[Excel](https://github.com/stej07033/Swiggy_Excel) •
-[Python](https://github.com/stej07033/Swiggy_python_project)
-
-### 📸 Result
-
-```html
-<img src="./images/swiggy-results.png" width="90%"/>
-```
-
 ---
 
-# 🛒 03 — E-Commerce Sales Analytics
+# 🛒 E-COMMERCE SALES ANALYTICS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/SQL-Data%20Analysis-336791?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-Pandas-3776AB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi"/>
-<img src="https://img.shields.io/badge/Excel-KPI-217346?style=for-the-badge"/>
+### 📈 SQL • Python • Excel • Power BI
+
+<br>
+
+<img src="./assets/ecommerce-results.gif" width="95%"/>
+
+<br><br>
+
+### 📊 KPI RESULTS
+
+```text
+          ┌────────────────┐
+          │ 💰 REVENUE     │
+          └───────┬────────┘
+                  │
+                  ▼
+          ┌────────────────┐
+          │ 🛒 ORDERS      │
+          └───────┬────────┘
+                  │
+                  ▼
+          ┌────────────────┐
+          │ 👥 CUSTOMERS   │
+          └───────┬────────┘
+                  │
+                  ▼
+          ┌────────────────┐
+          │ 💳 AOV         │
+          └───────┬────────┘
+                  │
+                  ▼
+          ┌────────────────┐
+          │ 📈 RETENTION   │
+          └────────────────┘
+```
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1600&pause=500&color=06B6D4&center=true&vCenter=true&width=700&lines=10%2C000%2B+Transactions;Monthly+Revenue+Analysis;Customer+Retention;Average+Order+Value;Interactive+Dashboard"/>
 
 </div>
 
-### 🔍 Project Overview
-
-An e-commerce sales analytics project focused on converting transaction-level data into **sales, customer and business performance insights**.
-
-### 📊 Project Scale
-
-```text
-10,000+ Transactions
-       ↓
-Data Cleaning
-       ↓
-SQL Analysis
-       ↓
-Python EDA
-       ↓
-Power BI Dashboard
-       ↓
-Business Insights
-```
-
-### 📌 KPIs
-
-| KPI                    | Analysis             |
-| ---------------------- | -------------------- |
-| 💰 Revenue             | Monthly performance  |
-| 🛒 Orders              | Order trends         |
-| 👥 Customers           | Customer behavior    |
-| 💳 Average Order Value | Purchase performance |
-| 📈 Retention           | Customer trends      |
-| 📅 Monthly Sales       | Time-based analysis  |
-
-### 🎯 Results
-
-* Built interactive KPI dashboard
-* Analyzed monthly revenue
-* Studied customer retention
-* Calculated average order value
-* Created business-focused visualizations
-* Developed SQL-based reporting workflow
-
-### 📸 Dashboard Result
-
-```html
-<img src="./images/ecommerce-dashboard.png" width="90%"/>
-```
-
 ---
 
-# 🎓 04 — Student Performance Analytics
+# 🎓 STUDENT PERFORMANCE ANALYTICS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+### 🐍 Python • Pandas • Matplotlib
+
+<br>
+
+<img src="./assets/student-performance-results.gif" width="95%"/>
+
+<br><br>
+
+```text
+             STUDENT PERFORMANCE
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+    📚 SUBJECTS   📈 SCORES   👨‍🎓 STUDENTS
+        │            │            │
+        └────────────┼────────────┘
+                     ▼
+                💡 INSIGHTS
+```
+
+<br>
+
+<img src="https://img.shields.io/badge/500%2B-Records-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/60%25-Less%20Manual%20Effort-06B6D4?style=for-the-badge"/>
 
 </div>
 
-### 🔍 Project Overview
-
-Analyzed **500+ student records** to identify relationships between student performance, study behavior and academic outcomes.
-
-### 📊 Results
-
-```text
-500+ Records
-     ↓
-Data Cleaning
-     ↓
-Exploratory Analysis
-     ↓
-Performance Patterns
-     ↓
-Visual Reports
-```
-
-### 💡 Insights
-
-📌 Identified performance patterns
-📌 Compared student groups
-📌 Analyzed academic trends
-📌 Created visual reports
-📌 Reduced manual analysis effort by approximately 60%
-
-### 📸 Results
-
-```html
-<img src="./images/student-performance.png" width="90%"/>
-```
-
 ---
 
-# 👥 05 — HR Attrition Analysis
+# 👥 HR ATTRITION ANALYSIS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-ML-3776AB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Logistic%20Regression-82%25-FF6B35?style=for-the-badge"/>
+### 🐍 Python • Machine Learning • Tableau
+
+<br>
+
+<img src="./assets/hr-attrition-results.gif" width="95%"/>
+
+<br><br>
+
+### 📊 ATTRITION ANALYTICS
+
+```text
+EMPLOYEES
+   │
+   ├── 🏢 Department
+   │
+   ├── 💼 Job Role
+   │
+   ├── 💰 Salary
+   │
+   ├── ⏳ Experience
+   │
+   └── 🔴 Attrition
+            │
+            ▼
+       ML ANALYSIS
+            │
+            ▼
+      📊 INSIGHTS
+```
+
+<br>
+
+<img src="https://img.shields.io/badge/Logistic%20Regression-~82%25-FF6B35?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge"/>
 
 </div>
 
-### 🔍 Project Overview
+---
 
-Analyzed employee data to understand **employee attrition patterns and factors associated with workforce turnover**.
+# 📈 RESULTS DASHBOARD
 
-### 📊 Model Result
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=1800&pause=600&color=38BDF8&center=true&vCenter=true&width=700&lines=FROM+RAW+DATA+TO+BUSINESS+INSIGHTS;KPI+%7C+TRENDS+%7C+PATTERNS+%7C+DECISIONS"/>
+
+</div>
+
+### 🏦 Bank Loan
 
 ```text
-Employee Data
-      ↓
-Data Preparation
-      ↓
-Exploratory Analysis
-      ↓
-Feature Analysis
-      ↓
-Logistic Regression
-      ↓
-~82% Model Accuracy
+Applications     ████████████████████
+Funded Amount    ██████████████████
+Received Amount  █████████████████
+Good Loans       ███████████████████
+Bad Loans        █████
 ```
 
-### 📌 Analysis
+### 🛵 Swiggy
 
-* Attrition rate
-* Department analysis
-* Job role analysis
-* Salary analysis
-* Experience analysis
-* Employee demographics
-* Attrition-related factors
+```text
+Orders           ████████████████████
+Customers        █████████████████
+Revenue          ███████████████████
+Restaurants      ███████████████
+Categories       ████████████████
+```
 
-### 📸 Tableau Result
+### 🛒 E-Commerce
 
-```html
-<img src="./images/hr-attrition-dashboard.png" width="90%"/>
+```text
+Revenue          ████████████████████
+Orders           █████████████████
+Customers        ██████████████████
+AOV              ███████████████
+Retention        ████████████████
+```
+
+### 🎓 Student Performance
+
+```text
+Performance      █████████████████
+Subject Analysis ██████████████████
+Score Analysis   ███████████████████
+```
+
+### 👥 HR Attrition
+
+```text
+Attrition        ███████████████
+Departments      █████████████████
+Job Roles        ██████████████████
+Salary Analysis  ████████████████
 ```
 
 ---
 
-# 📊 Project Results — Analytics Wall
+# 🔄 ANALYTICS WORKFLOW
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1200&pause=400&color=06B6D4&center=true&vCenter=true&width=800&lines=%F0%9F%93%A5+COLLECT+DATA;%F0%9F%A7%B9+CLEAN+DATA;%F0%9F%97%84%EF%B8%8F+QUERY+WITH+SQL;%F0%9F%90%8D+ANALYZE+WITH+PYTHON;%F0%9F%93%8A+BUILD+KPI;%F0%9F%93%88+VISUALIZE;%F0%9F%92%A1+GENERATE+INSIGHTS"/>
+
+</div>
+
+---
+
+# 🗄️ SQL RESULTS
 
 <div align="center">
 
 ```text
 ╔════════════════════════════════════════════╗
-║             📊 PROJECT RESULTS             ║
+║              SQL ANALYTICS                 ║
 ╠════════════════════════════════════════════╣
 ║                                            ║
-║ 🏦 BANK LOAN                               ║
-║ SQL + Python + Excel                       ║
-║ → Loan KPIs • Risk • Trends                ║
-║                                            ║
-║ 🛵 SWIGGY                                  ║
-║ SQL + Python + Excel                       ║
-║ → Orders • Customers • Revenue             ║
-║                                            ║
-║ 🛒 E-COMMERCE                              ║
-║ SQL + Python + Power BI                    ║
-║ → Sales • AOV • Retention                  ║
-║                                            ║
-║ 🎓 STUDENT PERFORMANCE                     ║
-║ Python + Pandas + Matplotlib               ║
-║ → Performance • Trends                     ║
-║                                            ║
-║ 👥 HR ATTRITION                            ║
-║ Python + ML + Tableau                      ║
-║ → Attrition • Workforce Insights           ║
+║  SELECT          → Data Retrieval         ║
+║  WHERE           → Filtering              ║
+║  JOIN            → Data Combination       ║
+║  GROUP BY        → Aggregation             ║
+║  HAVING          → Conditional Analysis   ║
+║  CTE             → Query Organization      ║
+║  CASE            → Business Logic         ║
+║  WINDOW FUNCTION → Advanced Analytics     ║
 ║                                            ║
 ╚════════════════════════════════════════════╝
 ```
@@ -420,115 +397,69 @@ Logistic Regression
 
 ---
 
-# ⚡ Analytics Workflow
+# 🐍 PYTHON RESULTS
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=500&color=06B6D4&center=true&vCenter=true&width=700&lines=Collect+%E2%86%92+Clean+%E2%86%92+Analyze+%E2%86%92+Visualize+%E2%86%92+Decide;SQL+%E2%86%92+Python+%E2%86%92+Excel+%E2%86%92+Power+BI;Data+%E2%86%92+Insights+%E2%86%92+Business+Impact"/>
+```text
+Pandas
+   ↓
+Cleaning
+   ↓
+Transformation
+   ↓
+EDA
+   ↓
+Visualization
+   ↓
+Business Insights
+```
 
 </div>
 
 ---
 
-# 🧠 SQL Skills
+# 📊 POWER BI RESULTS
 
-```sql
-SELECT
-    skill,
-    purpose
-FROM data_analyst_skills
-WHERE skill IN (
-    'Joins',
-    'Subqueries',
-    'CTE',
-    'Window Functions',
-    'GROUP BY',
-    'HAVING',
-    'CASE',
-    'Aggregations',
-    'Date Functions',
-    'Data Cleaning'
-)
-ORDER BY importance DESC;
-```
-
-### SQL Topics
-
-`SELECT` `WHERE` `GROUP BY` `HAVING` `ORDER BY`
-
-`JOINS` `SUBQUERIES` `CTE` `CASE`
-
-`WINDOW FUNCTIONS` `RANK` `ROW_NUMBER`
-
-`SUM` `AVG` `COUNT` `MIN` `MAX`
-
----
-
-# 🐍 Python Analytics
-
-```python
-import pandas as pd
-import numpy as np
-
-data = pd.read_csv("dataset.csv")
-
-data = data.drop_duplicates()
-data = data.dropna()
-
-summary = data.describe()
-
-print(summary)
-```
-
-### Python Workflow
+<div align="center">
 
 ```text
-Pandas
-  ↓
-NumPy
-  ↓
-Data Cleaning
-  ↓
-EDA
-  ↓
-Visualization
-  ↓
-Insights
-```
-
----
-
-# 📈 Power BI
-
-### Dashboard Development
-
-```text
-Dataset
+DATASET
    ↓
-Power Query
+POWER QUERY
    ↓
-Data Transformation
-   ↓
-Data Model
+DATA MODEL
    ↓
 DAX / KPIs
    ↓
-Interactive Dashboard
+SLICERS
+   ↓
+INTERACTIVE DASHBOARD
+   ↓
+💡 BUSINESS INSIGHTS
 ```
 
-### Dashboard Focus
-
-📊 KPI Cards
-📈 Trend Analysis
-🎯 Filters & Slicers
-👥 Customer Analysis
-💰 Revenue Analysis
-📅 Time Intelligence
-🔎 Business Insights
+</div>
 
 ---
 
-# 📊 GitHub Statistics
+# 📌 PROJECT RESULT GALLERY
+
+<div align="center">
+
+|    Project    |          Result         |
+| :-----------: | :---------------------: |
+|  🏦 Bank Loan |  📊 KPI + Risk Analysis |
+|   🛵 Swiggy   |   📈 Orders + Revenue   |
+| 🛒 E-Commerce |   📊 Sales + Retention  |
+|   🎓 Student  | 📈 Performance Analysis |
+|     👥 HR     |  📊 Attrition Analysis  |
+
+</div>
+
+---
+
+# 📊 GITHUB ANALYTICS
 
 <div align="center">
 
@@ -544,7 +475,7 @@ Interactive Dashboard
 
 ---
 
-# 🐍 Contribution Animation
+# 🐍 CONTRIBUTION ANIMATION
 
 <div align="center">
 
@@ -554,80 +485,54 @@ Interactive Dashboard
 
 ---
 
-# 🏆 Certifications & Learning
+# 🎯 CURRENT FOCUS
 
 <div align="center">
 
 ```text
-🎓 B.Tech – Mechanical Engineering
-
-📊 Data Analytics
-🐍 Python
-🗄️ SQL
-📗 Excel
+📊 Advanced SQL
+        ↓
+🐍 Python Analytics
+        ↓
 📈 Power BI
-📊 Tableau
+        ↓
+📐 Statistics
+        ↓
+🤖 AI + Data Analytics
 ```
 
 </div>
 
 ---
 
-# 🎯 Currently Learning
-
-```text
-████████████████████████████████  SQL
-██████████████████████████████░░  Python
-████████████████████████████░░░░  Power BI
-██████████████████████████░░░░░░  Statistics
-████████████████████████░░░░░░░░  Advanced Analytics
-██████████████████████░░░░░░░░░░  AI + Data Analytics
-```
-
----
-
-# 💼 Career Objective
-
-I am looking for opportunities where I can apply **SQL, Python, Excel and Power BI** to analyze real-world data, identify meaningful patterns and support data-driven business decisions.
-
-### Interested Roles
-
-`Data Analyst`
-
-`Business Analyst`
-
-`BI Analyst`
-
-`Reporting Analyst`
-
-`Junior Data Analyst`
-
----
-
-# 🌐 Connect With Me
+# 💼 OPEN TO OPPORTUNITIES
 
 <div align="center">
 
-<a href="https://github.com/stej07033">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-### 🚀 DATA → INSIGHTS → IMPACT
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Thanks+for+visiting+my+profile!;Let's+turn+data+into+decisions.;Always+learning.+Always+building.+🚀"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=1800&pause=700&color=38BDF8&center=true&vCenter=true&width=700&lines=Data+Analyst;Junior+Data+Analyst;Business+Analyst;BI+Analyst;Reporting+Analyst"/>
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:2563eb,100:020617&height=130&section=footer"/>
+<a href="https://github.com/stej07033">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 💡 DATA → INSIGHTS → IMPACT
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=600&color=06B6D4&center=true&vCenter=true&width=700&lines=Analyze+%F0%9F%94%8E;Visualize+%F0%9F%93%8A;Understand+%F0%9F%A7%A0;Decide+%F0%9F%92%A1;Build+%F0%9F%9A%80"/>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:2563eb,100:020617&height=140&section=footer"/>
 
 </div>
