@@ -1,595 +1,2377 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<title>Sai | Data Analyst Portfolio</title>
 
-<!--                    3D HERO SECTION                            -->
+<meta name="description"
+content="Sai - Data Analyst Portfolio | SQL | Python | Excel | Business Analytics">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<style>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:07111f,50:0b5c75,100:00e5ff&text=SAI%20M&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=DATA%20ANALYST%20%7C%20SQL%20%7C%20PYTHON%20%7C%20EXCEL%20%7C%20POWER%20BI&descAlignY=60&descSize=18&animation=twinkling"/>
+/* =========================================================
+   RESET
+========================================================= */
 
-<br>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=Turning+Raw+Data+into+Business+Decisions;SQL+%7C+Python+%7C+Excel+%7C+Power+BI;Cleaning+%E2%86%92+Analyzing+%E2%86%92+Visualizing+%E2%86%92+Insights;Building+Real-World+Data+Analytics+Projects" />
+html{
+    scroll-behavior:smooth;
+}
 
-<br><br>
+body{
+    font-family:Inter,Segoe UI,Arial,sans-serif;
+    background:#050816;
+    color:#fff;
+    overflow-x:hidden;
+    transition:background .5s,color .5s;
+}
 
-<a href="https://github.com/stej07033">
-<img src="https://img.shields.io/badge/GitHub-stej07033-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+body.light{
+    background:#f4f7fb;
+    color:#111827;
+}
 
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
-<img src="https://img.shields.io/badge/LinkedIn-Sai%20M-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+a{
+    color:inherit;
+    text-decoration:none;
+}
 
-<br><br>
+button{
+    font-family:inherit;
+}
+
+/* =========================================================
+   LOADING SCREEN
+========================================================= */
+
+.loader{
+    position:fixed;
+    inset:0;
+    background:#03040b;
+    z-index:99999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    transition:opacity 1s,visibility 1s;
+}
+
+.loader.hide{
+    opacity:0;
+    visibility:hidden;
+}
+
+.loader-title{
+    font-size:clamp(2rem,6vw,5rem);
+    font-weight:900;
+    letter-spacing:8px;
+    background:linear-gradient(90deg,#fff,#7dd3fc,#a78bfa,#fff);
+    background-size:300%;
+    -webkit-background-clip:text;
+    color:transparent;
+    animation:gradient 3s infinite;
+}
+
+.loader-line{
+    width:220px;
+    height:3px;
+    background:#222;
+    margin-top:30px;
+    overflow:hidden;
+    border-radius:50px;
+}
+
+.loader-line span{
+    display:block;
+    height:100%;
+    width:0;
+    background:linear-gradient(90deg,#38bdf8,#8b5cf6);
+    animation:load 2.2s forwards;
+}
+
+@keyframes load{
+    to{width:100%}
+}
+
+@keyframes gradient{
+    0%{background-position:0%}
+    50%{background-position:100%}
+    100%{background-position:0%}
+}
+
+/* =========================================================
+   CANVAS
+========================================================= */
+
+#particles{
+    position:fixed;
+    inset:0;
+    width:100%;
+    height:100%;
+    z-index:-5;
+    pointer-events:none;
+}
+
+/* =========================================================
+   CURSOR
+========================================================= */
+
+.cursor{
+    position:fixed;
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+        rgba(56,189,248,.13),
+        transparent 65%);
+    pointer-events:none;
+    transform:translate(-50%,-50%);
+    z-index:0;
+}
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+nav{
+    position:fixed;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    width:min(1150px,94%);
+    height:68px;
+    padding:0 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index:1000;
+
+    background:rgba(8,12,30,.55);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+
+    box-shadow:
+        0 20px 70px rgba(0,0,0,.35),
+        inset 0 1px rgba(255,255,255,.08);
+}
+
+body.light nav{
+    background:rgba(255,255,255,.7);
+    color:#111827;
+    border-color:rgba(0,0,0,.08);
+}
+
+.logo{
+    font-size:24px;
+    font-weight:900;
+    letter-spacing:2px;
+}
+
+.logo span{
+    color:#38bdf8;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    align-items:center;
+}
+
+.nav-links a{
+    font-size:14px;
+    opacity:.8;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    opacity:1;
+    color:#38bdf8;
+}
+
+.theme-btn{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.06);
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+}
+
+body.light .theme-btn{
+    color:#111;
+}
+
+.menu-btn{
+    display:none;
+    background:none;
+    border:0;
+    color:inherit;
+    font-size:25px;
+}
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+section{
+    width:min(1150px,92%);
+    margin:auto;
+    padding:120px 0;
+}
+
+.section-label{
+    color:#38bdf8;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:12px;
+    font-weight:800;
+    margin-bottom:12px;
+}
+
+.section-title{
+    font-size:clamp(2rem,5vw,4rem);
+    font-weight:900;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.section-description{
+    color:#94a3b8;
+    max-width:700px;
+    line-height:1.8;
+}
+
+body.light .section-description{
+    color:#64748b;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:1.15fr .85fr;
+    align-items:center;
+    gap:50px;
+    padding-top:150px;
+}
+
+.hero-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:9px 15px;
+    border:1px solid rgba(56,189,248,.3);
+    background:rgba(56,189,248,.08);
+    border-radius:50px;
+    color:#7dd3fc;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.status-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#22c55e;
+    box-shadow:0 0 15px #22c55e;
+    animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+    50%{transform:scale(1.5);opacity:.5}
+}
+
+.hero h1{
+    font-size:clamp(3rem,7vw,7rem);
+    line-height:.9;
+    font-weight:950;
+    letter-spacing:-5px;
+}
+
+.hero h1 .gradient{
+    background:linear-gradient(110deg,#38bdf8,#818cf8,#c084fc);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.typing{
+    min-height:42px;
+    margin-top:25px;
+    font-size:clamp(1.1rem,2vw,1.5rem);
+    color:#cbd5e1;
+}
+
+body.light .typing{
+    color:#475569;
+}
+
+.hero-text{
+    margin-top:20px;
+    max-width:650px;
+    color:#94a3b8;
+    line-height:1.8;
+}
+
+body.light .hero-text{
+    color:#64748b;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.btn{
+    padding:14px 22px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,.12);
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:700;
+}
+
+.btn-primary{
+    background:linear-gradient(135deg,#38bdf8,#6366f1);
+    color:white;
+    box-shadow:0 15px 35px rgba(56,189,248,.25);
+}
+
+.btn-secondary{
+    background:rgba(255,255,255,.05);
+}
+
+.btn:hover{
+    transform:translateY(-5px) scale(1.02);
+}
+
+/* =========================================================
+   3D CUBE
+========================================================= */
+
+.hero-visual{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    perspective:1000px;
+}
+
+.cube-wrapper{
+    width:260px;
+    height:260px;
+    position:relative;
+    transform-style:preserve-3d;
+    animation:floatCube 6s ease-in-out infinite;
+}
+
+.cube{
+    position:absolute;
+    width:180px;
+    height:180px;
+    left:40px;
+    top:40px;
+    transform-style:preserve-3d;
+    animation:rotateCube 16s linear infinite;
+}
+
+.face{
+    position:absolute;
+    width:180px;
+    height:180px;
+    border:1px solid rgba(125,211,252,.45);
+    background:linear-gradient(
+        135deg,
+        rgba(56,189,248,.12),
+        rgba(139,92,246,.1)
+    );
+    backdrop-filter:blur(5px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    font-weight:900;
+    color:#7dd3fc;
+    box-shadow:
+        inset 0 0 50px rgba(56,189,248,.08),
+        0 0 30px rgba(56,189,248,.08);
+}
+
+.front{transform:translateZ(90px)}
+.back{transform:rotateY(180deg) translateZ(90px)}
+.right{transform:rotateY(90deg) translateZ(90px)}
+.left{transform:rotateY(-90deg) translateZ(90px)}
+.top{transform:rotateX(90deg) translateZ(90px)}
+.bottom{transform:rotateX(-90deg) translateZ(90px)}
+
+@keyframes rotateCube{
+    from{transform:rotateX(0) rotateY(0)}
+    to{transform:rotateX(360deg) rotateY(360deg)}
+}
+
+@keyframes floatCube{
+    50%{transform:translateY(-25px) rotateZ(3deg)}
+}
+
+/* =========================================================
+   STATS
+========================================================= */
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    margin-top:60px;
+}
+
+.stat{
+    padding:30px;
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,.09);
+    background:rgba(255,255,255,.035);
+    backdrop-filter:blur(15px);
+    position:relative;
+    overflow:hidden;
+    transition:.4s;
+}
+
+body.light .stat,
+body.light .glass{
+    background:rgba(255,255,255,.7);
+    border-color:rgba(15,23,42,.08);
+}
+
+.stat:hover{
+    transform:translateY(-10px) rotateX(4deg);
+    box-shadow:0 25px 60px rgba(0,0,0,.25);
+}
+
+.stat-number{
+    font-size:2.6rem;
+    font-weight:950;
+    color:#7dd3fc;
+}
+
+.stat-label{
+    color:#94a3b8;
+    margin-top:5px;
+}
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:.8fr 1.2fr;
+    gap:60px;
+    align-items:center;
+}
+
+.about-card{
+    min-height:400px;
+    border-radius:30px;
+    border:1px solid rgba(255,255,255,.1);
+    background:
+        radial-gradient(circle at 30% 20%,rgba(56,189,248,.15),transparent 35%),
+        rgba(255,255,255,.035);
+    backdrop-filter:blur(15px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    overflow:hidden;
+    transform-style:preserve-3d;
+}
+
+.about-orb{
+    width:210px;
+    height:210px;
+    border-radius:50%;
+    background:
+        radial-gradient(circle at 35% 30%,#bae6fd,#38bdf8 35%,#6366f1 70%,#111827);
+    box-shadow:
+        0 0 80px rgba(56,189,248,.3),
+        inset -30px -30px 60px rgba(0,0,0,.35);
+    animation:orb 5s ease-in-out infinite;
+}
+
+@keyframes orb{
+    50%{
+        transform:translateY(-20px) scale(1.06);
+    }
+}
+
+/* =========================================================
+   SKILLS
+========================================================= */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    margin-top:45px;
+}
+
+.skill{
+    padding:25px;
+    border-radius:20px;
+    background:rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.skill-top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:14px;
+    font-weight:700;
+}
+
+.skill-bar{
+    height:8px;
+    background:rgba(255,255,255,.08);
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.skill-progress{
+    height:100%;
+    width:0;
+    border-radius:50px;
+    background:linear-gradient(90deg,#38bdf8,#8b5cf6);
+    transition:width 1.5s cubic-bezier(.2,.8,.2,1);
+}
+
+/* =========================================================
+   PROJECTS
+========================================================= */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-top:45px;
+}
+
+.project{
+    padding:30px;
+    border-radius:25px;
+    background:rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.09);
+    position:relative;
+    overflow:hidden;
+    transform-style:preserve-3d;
+    transition:.4s;
+}
+
+.project:hover{
+    transform:translateY(-12px);
+    border-color:rgba(56,189,248,.35);
+    box-shadow:0 30px 80px rgba(0,0,0,.25);
+}
+
+.project-number{
+    font-size:60px;
+    font-weight:950;
+    color:rgba(56,189,248,.08);
+    position:absolute;
+    right:20px;
+    top:10px;
+}
+
+.project-icon{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.project h3{
+    font-size:24px;
+    margin-bottom:12px;
+}
+
+.project p{
+    color:#94a3b8;
+    line-height:1.7;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:20px 0;
+}
+
+.tag{
+    font-size:11px;
+    padding:7px 10px;
+    border-radius:50px;
+    background:rgba(56,189,248,.08);
+    color:#7dd3fc;
+    border:1px solid rgba(56,189,248,.12);
+}
+
+.project-link{
+    color:#7dd3fc;
+    font-weight:800;
+}
+
+/* =========================================================
+   WORKFLOW
+========================================================= */
+
+.workflow{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:12px;
+    margin-top:50px;
+}
+
+.workflow-item{
+    padding:22px 12px;
+    text-align:center;
+    border-radius:18px;
+    background:rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.08);
+    transition:.4s;
+}
+
+.workflow-item:hover{
+    transform:translateY(-10px) scale(1.04);
+    background:rgba(56,189,248,.08);
+}
+
+.workflow-icon{
+    font-size:27px;
+    margin-bottom:10px;
+}
+
+.workflow-item span{
+    font-size:12px;
+    color:#94a3b8;
+}
+
+/* =========================================================
+   CERTIFICATIONS
+========================================================= */
+
+.cert-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-top:40px;
+}
+
+.cert{
+    padding:25px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.08);
+    background:rgba(255,255,255,.035);
+    transition:.3s;
+}
+
+.cert:hover{
+    transform:translateY(-7px);
+}
+
+.cert-icon{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.cert p{
+    margin-top:8px;
+    color:#94a3b8;
+    font-size:14px;
+}
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact{
+    text-align:center;
+    padding-bottom:80px;
+}
+
+.contact-box{
+    padding:60px 30px;
+    border-radius:35px;
+    background:
+        radial-gradient(circle at 20% 20%,rgba(56,189,248,.14),transparent 30%),
+        radial-gradient(circle at 80% 80%,rgba(139,92,246,.14),transparent 30%),
+        rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.1);
+    margin-top:45px;
+}
+
+.email{
+    margin:25px 0;
+    color:#7dd3fc;
+    font-size:18px;
+    word-break:break-word;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#64748b;
+    border-top:1px solid rgba(255,255,255,.06);
+}
+
+/* =========================================================
+   REVEAL ANIMATION
+========================================================= */
+
+.reveal{
+    opacity:0;
+    transform:translateY(60px);
+    transition:
+        opacity .9s ease,
+        transform .9s cubic-bezier(.2,.8,.2,1);
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* =========================================================
+   3D TILT
+========================================================= */
+
+.tilt{
+    transform-style:preserve-3d;
+}
+
+/* =========================================================
+   LIGHT MODE
+========================================================= */
+
+body.light .project,
+body.light .skill,
+body.light .workflow-item,
+body.light .cert,
+body.light .stat{
+    background:rgba(255,255,255,.8);
+    border-color:rgba(15,23,42,.08);
+}
+
+body.light .project p,
+body.light .cert p,
+body.light .stat-label,
+body.light .workflow-item span{
+    color:#64748b;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:850px){
+
+    .nav-links{
+        position:absolute;
+        top:78px;
+        left:0;
+        width:100%;
+        padding:25px;
+        border-radius:20px;
+        background:rgba(8,12,30,.95);
+        display:none;
+        flex-direction:column;
+    }
+
+    body.light .nav-links{
+        background:white;
+    }
+
+    .nav-links.open{
+        display:flex;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .hero{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero-text{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+    }
+
+    .skills-grid,
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+    .workflow{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .cert-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:500px){
+
+    section{
+        padding:85px 0;
+    }
+
+    .hero h1{
+        letter-spacing:-3px;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .workflow{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .cube-wrapper{
+        transform:scale(.8);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- =======================================================
+     LOADER
+======================================================= -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-title">
+        SAI
+    </div>
+
+    <div class="loader-line">
+        <span></span>
+    </div>
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- =======================================================
+     PARTICLES
+======================================================= -->
 
-<!--                    3D DATA CORE                               -->
+<canvas id="particles"></canvas>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="cursor" id="cursor"></div>
 
-<h2 align="center">◈ DATA ANALYTICS CORE ◈</h2>
+<!-- =======================================================
+     NAVBAR
+======================================================= -->
 
-<div align="center">
+<nav>
 
-<table>
-<tr>
+    <div class="logo">
+        SAI<span>.</span>
+    </div>
 
-<td width="180" align="center">
+    <div class="nav-links" id="navLinks">
 
-### 🧠
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
 
-**ANALYZE**
+    </div>
 
-Business
-Questions
+    <div style="display:flex;gap:10px;align-items:center">
 
-</td>
+        <button class="theme-btn" id="themeBtn">
+            ☀️
+        </button>
 
-<td align="center">
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
 
-### ➜
+    </div>
 
-</td>
+</nav>
 
-<td width="180" align="center">
+<!-- =======================================================
+     HERO
+======================================================= -->
 
-### 🧹
+<section class="hero" id="home">
 
-**CLEAN**
+    <div class="reveal">
 
-Raw
-Data
+        <div class="hero-badge">
 
-</td>
+            <span class="status-dot"></span>
 
-<td align="center">
+            Data Analyst Intern • Open to Opportunities
 
-### ➜
+        </div>
 
-</td>
+        <h1>
 
-<td width="180" align="center">
+            Hi, I'm
 
-### 📊
+            <span class="gradient">
+                Sai
+            </span>
 
-**VISUALIZE**
+        </h1>
 
-Patterns &
-KPIs
+        <div class="typing" id="typing"></div>
 
-</td>
+        <p class="hero-text">
 
-<td align="center">
+            I transform raw data into meaningful business insights using
+            SQL, Python, Excel and data visualization. I enjoy solving
+            practical business problems through data-driven analysis.
 
-### ➜
+        </p>
 
-</td>
+        <div class="hero-buttons">
 
-<td width="180" align="center">
+            <a
+                href="https://github.com/stej07033"
+                target="_blank"
+                class="btn btn-primary"
+            >
+                🐙 GitHub
+            </a>
 
-### 💡
+            <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="btn btn-secondary"
+            >
+                💼 LinkedIn
+            </a>
 
-**DECIDE**
+            <a
+                href="#projects"
+                class="btn btn-secondary"
+            >
+                🚀 View Projects
+            </a>
 
-Business
-Insights
+        </div>
 
-</td>
+    </div>
 
-</tr>
-</table>
+    <div class="hero-visual reveal">
 
-</div>
+        <div class="cube-wrapper">
 
-<br>
+            <div class="cube">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+                <div class="face front">SQL</div>
+                <div class="face back">PYTHON</div>
+                <div class="face right">EXCEL</div>
+                <div class="face left">DATA</div>
+                <div class="face top">BI</div>
+                <div class="face bottom">EDA</div>
 
-<!--                       ABOUT                                    -->
+            </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+        </div>
 
-<h2>👋 About Me</h2>
+    </div>
 
-<table>
-<tr>
+</section>
 
-<td width="60%">
+<!-- =======================================================
+     STATS
+======================================================= -->
 
-I'm <b>Sai M</b>, an aspiring <b>Data Analyst</b> focused on transforming raw datasets into meaningful business insights.
+<section>
 
-<br><br>
+    <div class="stats">
 
-🎓 B.Tech Graduate <br>
-📊 Data Analytics & Business Intelligence <br>
-🐍 Python for Data Analysis <br>
-🗄️ SQL & Database Analysis <br>
-📈 Excel & Dashboard Development <br>
-⚡ Learning Power BI & Advanced Analytics
+        <div class="stat reveal">
 
-<br><br>
+            <div
+                class="stat-number counter"
+                data-target="394800"
+            >
+                0
+            </div>
 
-<b>My approach:</b>
+            <div class="stat-label">
+                Swiggy Records
+            </div>
 
-<br>
+        </div>
 
-<code>RAW DATA → CLEANING → SQL/PYTHON → ANALYSIS → DASHBOARD → INSIGHT</code>
+        <div class="stat reveal">
 
-</td>
+            <div
+                class="stat-number counter"
+                data-target="20"
+            >
+                0
+            </div>
 
-<td width="40%" align="center">
+            <div class="stat-label">
+                Business Questions
+            </div>
 
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,git,github,vscode" />
+        </div>
 
-<br><br>
+        <div class="stat reveal">
 
-<img src="https://img.shields.io/badge/Analytics-Data%20Driven-00e5ff?style=for-the-badge"/>
-<br><br>
-<img src="https://img.shields.io/badge/Mindset-Problem%20Solver-7c3aed?style=for-the-badge"/>
+            <div
+                class="stat-number counter"
+                data-target="75"
+            >
+                0
+            </div>
 
-</td>
+            <div class="stat-label">
+                SQL Problems+
+            </div>
 
-</tr>
-</table>
+        </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+        <div class="stat reveal">
 
-<!--                     TECH STACK                                -->
+            <div
+                class="stat-number counter"
+                data-target="4"
+            >
+                0
+            </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <div class="stat-label">
+                Core Analytics Tools
+            </div>
 
-<h2 align="center">⚙️ ANALYTICS TECH STACK</h2>
+        </div>
 
-<div align="center">
+    </div>
 
-<table>
-<tr>
-<td align="center">
+</section>
 
-### 🐍 PYTHON
+<!-- =======================================================
+     ABOUT
+======================================================= -->
 
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Plotly
+<section id="about">
 
-</td>
+    <div class="about-grid">
 
-<td align="center">
+        <div class="about-card tilt reveal">
 
-### 🗄️ SQL
+            <div class="about-orb"></div>
 
-PostgreSQL
-SQL Server
-Joins
-CTEs
-Window Functions
+        </div>
 
-</td>
+        <div class="reveal">
 
-<td align="center">
+            <div class="section-label">
+                About Me
+            </div>
 
-### 📊 BI
+            <h2 class="section-title">
+                Data-driven.<br>
+                Business-focused.
+            </h2>
 
-Excel
-Power BI
-Pivot Tables
-Slicers
-KPI Cards
+            <p class="section-description">
 
-</td>
+                I'm a Data Analyst Intern at Tap Academy, working with
+                Python, SQL and Excel to analyze business datasets,
+                perform data cleaning, develop reports and support
+                data-driven decision-making.
 
-<td align="center">
+                <br><br>
 
-### 🛠️ TOOLS
+                My portfolio focuses on practical analytics projects
+                rather than simply learning individual tools. I like
+                connecting data preparation, SQL analysis, KPI tracking,
+                visualization and business recommendations into one
+                complete workflow.
 
-Git
-GitHub
-VS Code
-Jupyter
-pgAdmin
+            </p>
 
-</td>
-</tr>
-</table>
+        </div>
 
-</div>
+    </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+</section>
 
-<!--                    PROJECTS                                   -->
+<!-- =======================================================
+     SKILLS
+======================================================= -->
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<section id="skills">
 
-<h2 align="center">🚀 PROJECT UNIVERSE</h2>
+    <div class="section-label reveal">
+        Technical Skills
+    </div>
 
-<p align="center">
-<i>Real datasets. Business questions. Analytical solutions.</i>
-</p>
+    <h2 class="section-title reveal">
+        My Analytics Stack
+    </h2>
 
-<br>
+    <p class="section-description reveal">
+        Tools I use to clean, analyze, visualize and communicate data.
+    </p>
 
-<table>
+    <div class="skills-grid">
 
-<tr>
+        <div class="skill reveal">
 
-<td width="50%">
+            <div class="skill-top">
+                <span>SQL / T-SQL</span>
+                <span>90%</span>
+            </div>
 
-<h3>🏦 Bank Loan Analytics</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+            </div>
 
-<b>SQL Server • T-SQL</b>
+        </div>
 
-<br><br>
+        <div class="skill reveal">
 
-Analyzed loan applications, funded amounts, repayments, interest rates, DTI and good/bad loan performance.
+            <div class="skill-top">
+                <span>Python / Pandas</span>
+                <span>88%</span>
+            </div>
 
-<br><br>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="88%"></div>
+            </div>
 
-<code>SQL</code> <code>CTE</code> <code>Window Functions</code> <code>KPI</code>
+        </div>
 
-<br><br>
+        <div class="skill reveal">
 
-<a href="https://github.com/stej07033">
-View Project →
-</a>
+            <div class="skill-top">
+                <span>Excel</span>
+                <span>90%</span>
+            </div>
 
-</td>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+            </div>
 
-<td width="50%">
+        </div>
 
-<h3>🛵 Swiggy Analytics</h3>
+        <div class="skill reveal">
 
-<b>Python • SQL Server • Excel</b>
+            <div class="skill-top">
+                <span>Data Visualization</span>
+                <span>85%</span>
+            </div>
 
-<br><br>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+            </div>
 
-End-to-end food-delivery analysis covering orders, revenue, restaurants, ratings, categories and business performance.
+        </div>
 
-<br><br>
+        <div class="skill reveal">
 
-<code>Python</code> <code>SQL</code> <code>Excel</code> <code>Dashboard</code>
+            <div class="skill-top">
+                <span>Data Cleaning</span>
+                <span>88%</span>
+            </div>
 
-<br><br>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="88%"></div>
+            </div>
 
-<a href="https://github.com/stej07033/Swiggy_Sql_Project">
-View Project →
-</a>
+        </div>
 
-</td>
+        <div class="skill reveal">
 
-</tr>
+            <div class="skill-top">
+                <span>Business Analytics</span>
+                <span>82%</span>
+            </div>
 
-<tr>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="82%"></div>
+            </div>
 
-<td width="50%">
+        </div>
 
-<h3>📱 PhonePe Analytics</h3>
+    </div>
 
-<b>Excel Dashboard</b>
+</section>
 
-<br><br>
+<!-- =======================================================
+     WORKFLOW
+======================================================= -->
 
-Explored digital payment transactions across states, districts, categories and time periods.
+<section>
 
-<br><br>
+    <div class="section-label reveal">
+        Workflow
+    </div>
 
-<code>Excel</code> <code>Pivot Tables</code> <code>Slicers</code> <code>KPI</code>
+    <h2 class="section-title reveal">
+        How I Work With Data
+    </h2>
 
-<br><br>
+    <div class="workflow">
 
-<a href="https://github.com/stej07033/Phonepe_Dashboard">
-View Project →
-</a>
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">📥</div>
+            <b>Raw Data</b>
+            <span>Collect</span>
+        </div>
 
-</td>
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">🧹</div>
+            <b>Cleaning</b>
+            <span>Prepare</span>
+        </div>
 
-<td width="50%">
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">🔍</div>
+            <b>EDA</b>
+            <span>Explore</span>
+        </div>
 
-<h3>🍕 Pizza Sales Analysis</h3>
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">🗄️</div>
+            <b>SQL</b>
+            <span>Analyze</span>
+        </div>
 
-<b>SQL Server • Excel</b>
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">📊</div>
+            <b>KPIs</b>
+            <span>Measure</span>
+        </div>
 
-<br><br>
+        <div class="workflow-item reveal">
+            <div class="workflow-icon">💡</div>
+            <b>Insights</b>
+            <span>Decide</span>
+        </div>
 
-Analyzed sales performance, product categories, order trends and revenue using SQL and interactive Excel reporting.
+    </div>
 
-<br><br>
+</section>
 
-<code>SQL</code> <code>Excel</code> <code>Dashboard</code>
+<!-- =======================================================
+     PROJECTS
+======================================================= -->
 
-<br><br>
+<section id="projects">
 
-<a href="https://github.com/stej07033/MSSQL-EXCEL_PROJECT1">
-View Project →
-</a>
+    <div class="section-label reveal">
+        Featured Projects
+    </div>
 
-</td>
+    <h2 class="section-title reveal">
+        Selected Work
+    </h2>
 
-</tr>
+    <p class="section-description reveal">
+        Practical analytics projects demonstrating data cleaning,
+        SQL analysis, Python workflows and business reporting.
+    </p>
 
-<tr>
+    <div class="projects-grid">
 
-<td width="50%">
+        <!-- PROJECT 1 -->
 
-<h3>🎵 Spotify & YouTube Analysis</h3>
+        <article class="project tilt reveal">
 
-<b>PostgreSQL</b>
+            <div class="project-number">
+                01
+            </div>
 
-<br><br>
+            <div class="project-icon">
+                🛵
+            </div>
 
-Used SQL to explore music and video engagement data through filtering, aggregation, joins and analytical queries.
+            <h3>
+                Swiggy End-to-End Analytics
+            </h3>
 
-<br><br>
+            <p>
 
-<code>PostgreSQL</code> <code>SQL</code> <code>EDA</code>
+                An end-to-end food-delivery analytics project using
+                394,800+ records. The same dataset was analyzed through
+                Python, SQL Server and Excel to answer 20+ business
+                questions.
 
-<br><br>
+            </p>
 
-<a href="https://github.com/stej07033/Spotify-Youtube-Project">
-View Project →
-</a>
+            <div class="tags">
 
-</td>
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">T-SQL</span>
+                <span class="tag">Excel</span>
+                <span class="tag">KPI Analysis</span>
 
-<td width="50%">
+            </div>
 
-<h3>👥 HR Analytics</h3>
+            <a
+                class="project-link"
+                href="https://github.com/stej07033/Swiggy_Sql_Project"
+                target="_blank"
+            >
+                Explore Project →
+            </a>
 
-<b>Excel Dashboard</b>
+        </article>
 
-<br><br>
+        <!-- PROJECT 2 -->
 
-Analyzed employee attrition, demographics, satisfaction, departments and workforce KPIs.
+        <article class="project tilt reveal">
 
-<br><br>
+            <div class="project-number">
+                02
+            </div>
 
-<code>Excel</code> <code>KPI</code> <code>Dashboard</code>
+            <div class="project-icon">
+                📊
+            </div>
 
-<br><br>
+            <h3>
+                HR Analytics Dashboard
+            </h3>
 
-<a href="https://github.com/stej07033">
-View Project →
-</a>
+            <p>
 
-</td>
+                Interactive Excel dashboard analyzing employee
+                attrition, demographics, job satisfaction and
+                department-level performance through KPI reporting.
 
-</tr>
+            </p>
 
-</table>
+            <div class="tags">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+                <span class="tag">Excel</span>
+                <span class="tag">Pivot Tables</span>
+                <span class="tag">Pivot Charts</span>
+                <span class="tag">Slicers</span>
+                <span class="tag">KPI Cards</span>
 
-<!--                    ANALYTICS PIPELINE                          -->
+            </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <a
+                class="project-link"
+                href="https://github.com/stej07033"
+                target="_blank"
+            >
+                Explore Project →
+            </a>
 
-<h2 align="center">🔬 MY ANALYTICS PIPELINE</h2>
+        </article>
 
-<div align="center">
+        <!-- PROJECT 3 -->
 
-```text
-             ┌─────────────────┐
-             │   RAW DATA      │
-             │ CSV • Excel     │
-             │ Database        │
-             └────────┬────────┘
-                      ↓
-             ┌─────────────────┐
-             │ DATA CLEANING   │
-             │ Missing Values  │
-             │ Duplicates      │
-             │ Validation      │
-             └────────┬────────┘
-                      ↓
-             ┌─────────────────┐
-             │ DATA ANALYSIS   │
-             │ SQL • Python    │
-             │ Statistics      │
-             └────────┬────────┘
-                      ↓
-             ┌─────────────────┐
-             │ VISUALIZATION   │
-             │ Excel • PowerBI │
-             │ Charts • KPIs   │
-             └────────┬────────┘
-                      ↓
-             ┌─────────────────┐
-             │ BUSINESS INSIGHT│
-             │ FIND → EXPLAIN  │
-             │ → RECOMMEND     │
-             └─────────────────┘
-```
+        <article class="project tilt reveal">
 
-</div>
+            <div class="project-number">
+                03
+            </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <div class="project-icon">
+                🐍
+            </div>
 
-<!--                    SQL ZONE                                   -->
+            <h3>
+                Python Data Analytics
+            </h3>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <p>
 
-<h2>🗄️ SQL ANALYTICS ZONE</h2>
+                Python-based analytics workflows using Pandas,
+                NumPy and visualization libraries to clean,
+                explore and understand structured datasets.
 
-<div align="center">
+            </p>
 
-<img src="https://img.shields.io/badge/SELECT-00E5FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/JOIN-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GROUP%20BY-00B894?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CTE-FF7675?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/WINDOW%20FUNCTIONS-FDCB6E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/KPI-0984E3?style=for-the-badge"/>
+            <div class="tags">
 
-</div>
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Matplotlib</span>
+                <span class="tag">Seaborn</span>
 
-<br>
+            </div>
 
-```sql
--- My analytical mindset
+            <a
+                class="project-link"
+                href="https://github.com/stej07033"
+                target="_blank"
+            >
+                View GitHub →
+            </a>
 
-SELECT
-    business_question,
-    data,
-    pattern,
-    insight,
-    recommendation
-FROM analytics
-WHERE insight IS NOT NULL
-ORDER BY business_impact DESC;
-```
+        </article>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+        <!-- PROJECT 4 -->
 
-<!--                    WHAT I BUILD                               -->
+        <article class="project tilt reveal">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <div class="project-number">
+                04
+            </div>
 
-<h2 align="center">💡 WHAT I BUILD</h2>
+            <div class="project-icon">
+                🗄️
+            </div>
 
-<div align="center">
+            <h3>
+                SQL Business Analysis
+            </h3>
 
-|       DATA       |      ANALYSIS     |      OUTPUT      |
-| :--------------: | :---------------: | :--------------: |
-|    🧾 Raw CSV    |     🐍 Python     | 📊 Clean Dataset |
-|   🗄️ Database   |       🔍 SQL      |      📈 KPIs     |
-|     📑 Excel     | 📊 Pivot Analysis |   🎯 Dashboard   |
-| 🌐 Business Data |       🧠 EDA      |    💡 Insights   |
+            <p>
 
-</div>
+                SQL analysis focused on business questions using
+                joins, aggregations, CTEs, subqueries and window
+                functions to generate actionable metrics.
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            </p>
 
-<!--                    GITHUB STATS                               -->
+            <div class="tags">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+                <span class="tag">SQL</span>
+                <span class="tag">Joins</span>
+                <span class="tag">CTEs</span>
+                <span class="tag">Window Functions</span>
+                <span class="tag">KPIs</span>
 
-<h2 align="center">📈 GITHUB ACTIVITY</h2>
+            </div>
 
-<div align="center">
+            <a
+                class="project-link"
+                href="https://github.com/stej07033"
+                target="_blank"
+            >
+                View GitHub →
+            </a>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&theme=tokyonight&hide_border=true&bg_color=07111f&title_color=00e5ff&icon_color=7c3aed&text_color=ffffff"/>
+        </article>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&theme=tokyonight&hide_border=true&bg_color=07111f&title_color=00e5ff&text_color=ffffff"/>
+    </div>
 
-</div>
+</section>
 
-<br>
+<!-- =======================================================
+     ANALYTICS CAPABILITIES
+======================================================= -->
 
-<div align="center">
+<section>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=stej07033&theme=tokyonight&hide_border=true&background=07111f&ring=00e5ff&fire=7c3aed&currStreakLabel=00e5ff"/>
+    <div class="section-label reveal">
+        Analytics Capabilities
+    </div>
 
-</div>
+    <h2 class="section-title reveal">
+        What I Bring
+    </h2>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+    <div class="stats">
 
-<!--                    CONTRIBUTION GRAPH                          -->
+        <div class="stat reveal">
+            <div class="stat-number">SQL</div>
+            <div class="stat-label">
+                Analytical querying
+            </div>
+        </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+        <div class="stat reveal">
+            <div class="stat-number">PY</div>
+            <div class="stat-label">
+                Python analytics
+            </div>
+        </div>
 
-<h2 align="center">🌌 CONTRIBUTION MATRIX</h2>
+        <div class="stat reveal">
+            <div class="stat-number">XLS</div>
+            <div class="stat-label">
+                Excel reporting
+            </div>
+        </div>
 
-<div align="center">
+        <div class="stat reveal">
+            <div class="stat-number">BI</div>
+            <div class="stat-label">
+                Business intelligence
+            </div>
+        </div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=stej07033&bg_color=07111f&color=00e5ff&line=7c3aed&point=ffffff&area=true&hide_border=true"/>
+    </div>
 
-</div>
+</section>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- =======================================================
+     CERTIFICATIONS
+======================================================= -->
 
-<!--                    CURRENT FOCUS                              -->
+<section id="certifications">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+    <div class="section-label reveal">
+        Certifications
+    </div>
 
-<h2>🎯 CURRENTLY FOCUSING ON</h2>
+    <h2 class="section-title reveal">
+        Learning & Credentials
+    </h2>
 
-<table>
-<tr>
+    <div class="cert-grid">
 
-<td align="center">🐍<br><b>Advanced Python</b></td>
+        <div class="cert reveal">
 
-<td align="center">🗄️<br><b>Advanced SQL</b></td>
+            <div class="cert-icon">
+                🏆
+            </div>
 
-<td align="center">📊<br><b>Power BI</b></td>
+            <h3>
+                Google Data Analytics
+            </h3>
 
-<td align="center">📈<br><b>Business Analytics</b></td>
+            <p>
+                Google / Coursera
+            </p>
 
-<td align="center">🤖<br><b>Automation</b></td>
+        </div>
 
-</tr>
-</table>
+        <div class="cert reveal">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <div class="cert-icon">
+                🐍
+            </div>
 
-<!--                    PHILOSOPHY                                -->
+            <h3>
+                Python for Data Science
+            </h3>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <p>
+                Coursera
+            </p>
 
-<div align="center">
+        </div>
 
-<br>
+        <div class="cert reveal">
 
-### 🧠 DATA IS EVERYWHERE.
+            <div class="cert-icon">
+                📊
+            </div>
 
-### 💡 INSIGHT IS THE DIFFERENCE.
+            <h3>
+                Power BI Data Analyst
+            </h3>
 
-### 🚀 I BUILD THE BRIDGE.
+            <p>
+                Microsoft Learn
+            </p>
 
-<br>
+        </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00e5ff,50:0b5c75,100:07111f"/>
+        <div class="cert reveal">
 
-</div>
+            <div class="cert-icon">
+                🗄️
+            </div>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+            <h3>
+                SQL for Data Analysis
+            </h3>
 
-<!--                    CONNECT                                    -->
+            <p>
+                HackerRank
+            </p>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
+        </div>
 
-<h2 align="center">🤝 LET'S CONNECT</h2>
+        <div class="cert reveal">
 
-<div align="center">
+            <div class="cert-icon">
+                📚
+            </div>
 
-<a href="https://github.com/stej07033">
-<img src="https://img.shields.io/badge/GitHub-STEJ07033-181717?style=for-the-badge&logo=github"/>
-</a>
+            <h3>
+                Introduction to Data Analytics
+            </h3>
 
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
-<img src="https://img.shields.io/badge/LinkedIn-SAI%20M-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
+            <p>
+                NPTEL
+            </p>
 
-<br><br>
+        </div>
 
-<b>Open to Data Analyst opportunities 🚀</b>
+    </div>
 
-<br>
+</section>
 
-<i>Let's turn data into decisions.</i>
+<!-- =======================================================
+     CAREER
+======================================================= -->
 
-</div>
+<section>
+
+    <div class="about-grid">
+
+        <div class="reveal">
+
+            <div class="section-label">
+                Career Direction
+            </div>
+
+            <h2 class="section-title">
+                From Data<br>
+                to Decisions.
+            </h2>
+
+        </div>
+
+        <div class="reveal">
+
+            <p class="section-description">
+
+                My goal is to build a career in data analytics where
+                technical analysis is connected directly to business
+                decision-making.
+
+                <br><br>
+
+                I'm particularly interested in:
+
+                <br><br>
+
+                <strong>
+                    Data Analyst • Junior Data Analyst • Business Analyst
+                    • BI Analyst • SQL Analyst
+                </strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =======================================================
+     CONTACT
+======================================================= -->
+
+<section id="contact" class="contact">
+
+    <div class="section-label reveal">
+        Contact
+    </div>
+
+    <h2 class="section-title reveal">
+        Let's Connect
+    </h2>
+
+    <div class="contact-box reveal">
+
+        <p class="section-description" style="margin:auto">
+
+            Interested in data analytics, SQL, Python,
+            Excel or business intelligence?
+
+            Let's connect.
+
+        </p>
+
+        <div class="email" id="email">
+            stej07033@gmail.com
+        </div>
+
+        <div class="hero-buttons" style="justify-content:center">
+
+            <button
+                class="btn btn-primary"
+                onclick="copyEmail()"
+            >
+                📋 Copy Email
+            </button>
+
+            <a
+                href="mailto:stej07033@gmail.com"
+                class="btn btn-secondary"
+            >
+                ✉️ Email Me
+            </a>
+
+            <a
+                href="https://github.com/stej07033"
+                target="_blank"
+                class="btn btn-secondary"
+            >
+                🐙 GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =======================================================
+     FOOTER
+======================================================= -->
+
+<footer>
+
+    © <span id="year"></span> Sai.
+
+    <br><br>
+
+    Data Analyst • SQL • Python • Excel • Business Analytics
+
+</footer>
+
+<!-- =======================================================
+     JAVASCRIPT
+======================================================= -->
+
+<script>
+
+/* =========================================================
+   LOADER
+========================================================= */
+
+window.addEventListener("load",()=>{
+
+    setTimeout(()=>{
+
+        document
+        .getElementById("loader")
+        .classList.add("hide");
+
+    },2300);
+
+});
+
+/* =========================================================
+   YEAR
+========================================================= */
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+/* =========================================================
+   TYPING ANIMATION
+========================================================= */
+
+const typingElement =
+document.getElementById("typing");
+
+const words = [
+
+    "Data Analyst",
+    "SQL Analyst",
+    "Python Analytics Enthusiast",
+    "Business Analytics Aspirant",
+    "Excel Dashboard Developer"
+
+];
+
+let wordIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+function typeEffect(){
+
+    const current = words[wordIndex];
+
+    if(!deleting){
+
+        typingElement.textContent =
+        current.substring(0,charIndex++);
+
+        if(charIndex > current.length){
+
+            deleting = true;
+
+            setTimeout(typeEffect,1200);
+
+            return;
+        }
+
+    }else{
+
+        typingElement.textContent =
+        current.substring(0,charIndex--);
+
+        if(charIndex === 0){
+
+            deleting = false;
+
+            wordIndex =
+            (wordIndex + 1) % words.length;
+
+        }
+
+    }
+
+    setTimeout(
+        typeEffect,
+        deleting ? 45 : 85
+    );
+
+}
+
+typeEffect();
+
+/* =========================================================
+   THEME
+========================================================= */
+
+const themeBtn =
+document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click",()=>{
+
+    document.body.classList.toggle("light");
+
+    themeBtn.textContent =
+    document.body.classList.contains("light")
+    ? "🌙"
+    : "☀️";
+
+});
+
+/* =========================================================
+   MOBILE MENU
+========================================================= */
+
+const menuBtn =
+document.getElementById("menuBtn");
+
+const navLinks =
+document.getElementById("navLinks");
+
+menuBtn.addEventListener("click",()=>{
+
+    navLinks.classList.toggle("open");
+
+});
+
+document
+.querySelectorAll(".nav-links a")
+.forEach(link=>{
+
+    link.addEventListener("click",()=>{
+
+        navLinks.classList.remove("open");
+
+    });
+
+});
+
+/* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+const observer =
+new IntersectionObserver(
+
+    entries=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                entry.target
+                .classList
+                .add("active");
+
+            }
+
+        });
+
+    },
+
+    {
+        threshold:.12
+    }
+
+);
+
+document
+.querySelectorAll(".reveal")
+.forEach(el=>observer.observe(el));
+
+/* =========================================================
+   SKILL BARS
+========================================================= */
+
+const skillObserver =
+new IntersectionObserver(
+
+    entries=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                const progress =
+                entry.target;
+
+                progress.style.width =
+                progress.dataset.width;
+
+                skillObserver.unobserve(progress);
+
+            }
+
+        });
+
+    },
+
+    {
+        threshold:.5
+    }
+
+);
+
+document
+.querySelectorAll(".skill-progress")
+.forEach(el=>{
+
+    skillObserver.observe(el);
+
+});
+
+/* =========================================================
+   COUNTERS
+========================================================= */
+
+function animateCounter(element){
+
+    const target =
+    Number(element.dataset.target);
+
+    let current = 0;
+
+    const duration = 1800;
+
+    const start =
+    performance.now();
+
+    function update(time){
+
+        const progress =
+        Math.min(
+            (time-start)/duration,
+            1
+        );
+
+        const eased =
+        1-Math.pow(1-progress,4);
+
+        current =
+        Math.floor(target*eased);
+
+        element.textContent =
+        current.toLocaleString();
+
+        if(progress < 1){
+
+            requestAnimationFrame(update);
+
+        }else{
+
+            element.textContent =
+            target.toLocaleString();
+
+        }
+
+    }
+
+    requestAnimationFrame(update);
+
+}
+
+const counterObserver =
+new IntersectionObserver(
+
+    entries=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                animateCounter(entry.target);
+
+                counterObserver
+                .unobserve(entry.target);
+
+            }
+
+        });
+
+    },
+
+    {
+        threshold:.6
+    }
+
+);
+
+document
+.querySelectorAll(".counter")
+.forEach(el=>{
+
+    counterObserver.observe(el);
+
+});
+
+/* =========================================================
+   MOUSE CURSOR GLOW
+========================================================= */
+
+const cursor =
+document.getElementById("cursor");
+
+window.addEventListener("mousemove",e=>{
+
+    cursor.style.left =
+    e.clientX+"px";
+
+    cursor.style.top =
+    e.clientY+"px";
+
+});
+
+/* =========================================================
+   3D TILT
+========================================================= */
+
+document
+.querySelectorAll(".tilt")
+.forEach(card=>{
+
+    card.addEventListener("mousemove",e=>{
+
+        const rect =
+        card.getBoundingClientRect();
+
+        const x =
+        e.clientX-rect.left;
+
+        const y =
+        e.clientY-rect.top;
+
+        const centerX =
+        rect.width/2;
+
+        const centerY =
+        rect.height/2;
+
+        const rotateX =
+        ((y-centerY)/centerY)*-5;
+
+        const rotateY =
+        ((x-centerX)/centerX)*5;
+
+        card.style.transform =
+        `perspective(900px)
+         rotateX(${rotateX}deg)
+         rotateY(${rotateY}deg)
+         translateY(-5px)`;
+
+    });
+
+    card.addEventListener("mouseleave",()=>{
+
+        card.style.transform =
+        "";
+
+    });
+
+});
+
+/* =========================================================
+   COPY EMAIL
+========================================================= */
+
+function copyEmail(){
+
+    const email =
+    document
+    .getElementById("email")
+    .textContent
+    .trim();
+
+    navigator.clipboard
+    .writeText(email)
+    .then(()=>{
+
+        const btn =
+        event.currentTarget;
+
+        const old =
+        btn.textContent;
+
+        btn.textContent =
+        "✓ Email Copied";
+
+        setTimeout(()=>{
+
+            btn.textContent =
+            old;
+
+        },1800);
+
+    });
+
+}
+
+/* =========================================================
+   PARTICLE SYSTEM
+========================================================= */
+
+const canvas =
+document.getElementById("particles");
+
+const ctx =
+canvas.getContext("2d");
+
+let particles = [];
+
+function resizeCanvas(){
+
+    canvas.width =
+    window.innerWidth;
+
+    canvas.height =
+    window.innerHeight;
+
+}
+
+resizeCanvas();
+
+window.addEventListener(
+    "resize",
+    resizeCanvas
+);
+
+class Particle{
+
+    constructor(){
+
+        this.x =
+        Math.random()*canvas.width;
+
+        this.y =
+        Math.random()*canvas.height;
+
+        this.vx =
+        (Math.random()-.5)*.35;
+
+        this.vy =
+        (Math.random()-.5)*.35;
+
+        this.size =
+        Math.random()*1.7+.3;
+
+    }
+
+    update(){
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        if(this.x < 0)
+            this.x = canvas.width;
+
+        if(this.x > canvas.width)
+            this.x = 0;
+
+        if(this.y < 0)
+            this.y = canvas.height;
+
+        if(this.y > canvas.height)
+            this.y = 0;
+
+    }
+
+    draw(){
+
+        ctx.beginPath();
+
+        ctx.arc(
+            this.x,
+            this.y,
+            this.size,
+            0,
+            Math.PI*2
+        );
+
+        ctx.fillStyle =
+        "rgba(125,211,252,.45)";
+
+        ctx.fill();
+
+    }
+
+}
+
+for(let i=0;i<130;i++){
+
+    particles.push(
+        new Particle()
+    );
+
+}
+
+function connectParticles(){
+
+    for(let a=0;a<particles.length;a++){
+
+        for(
+            let b=a+1;
+            b<particles.length;
+            b++
+        ){
+
+            const dx =
+            particles[a].x-particles[b].x;
+
+            const dy =
+            particles[a].y-particles[b].y;
+
+            const distance =
+            Math.sqrt(dx*dx+dy*dy);
+
+            if(distance < 110){
+
+                ctx.beginPath();
+
+                ctx.moveTo(
+                    particles[a].x,
+                    particles[a].y
+                );
+
+                ctx.lineTo(
+                    particles[b].x,
+                    particles[b].y
+                );
+
+                ctx.strokeStyle =
+                `rgba(
+                    56,
+                    189,
+                    248,
+                    ${1-distance/110}
+                )`;
+
+                ctx.lineWidth=.25;
+
+                ctx.stroke();
+
+            }
+
+        }
+
+    }
+
+}
+
+function animateParticles(){
+
+    ctx.clearRect(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+    );
+
+    particles.forEach(p=>{
+
+        p.update();
+        p.draw();
+
+    });
+
+    connectParticles();
+
+    requestAnimationFrame(
+        animateParticles
+    );
+
+}
+
+animateParticles();
+
+/* =========================================================
+   PARALLAX HERO
+========================================================= */
+
+window.addEventListener("mousemove",e=>{
+
+    const x =
+    (e.clientX/window.innerWidth-.5);
+
+    const y =
+    (e.clientY/window.innerHeight-.5);
+
+    const cube =
+    document.querySelector(".cube-wrapper");
+
+    if(cube){
+
+        cube.style.transform =
+        `translate(${x*18}px,${y*18}px)`;
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>
