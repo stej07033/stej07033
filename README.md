@@ -1,252 +1,563 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20There,%20I'm%20Sai%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+# 👋 Hi, I'm **MADANAPALLI SAI**
+
+### 📊 Aspiring Data Analyst | SQL | Python | Excel | Power BI
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=700&color=00D9FF&center=true&vCenter=true&width=750&lines=Turning+Raw+Data+into+Business+Insights;SQL+%7C+Python+%7C+Excel+%7C+Power+BI;Building+Real-World+Analytics+Projects;Data+Analytics+Enthusiast+%F0%9F%9A%80" />
+
+<br>
 
 <a href="https://github.com/stej07033">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2C9DF2&center=true&vCenter=true&width=650&lines=Aspiring+Data+Analyst;SQL+%7C+PostgreSQL+%7C+Python+%7C+Excel+%7C+Power+BI;Turning+Raw+Data+Into+Business+Insights;Open+to+Data+Analyst+Opportunities+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://img.shields.io/badge/GitHub-stej07033-181717?style=for-the-badge&logo=github">
 </a>
-
-<br/>
-
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin">
 </a>
-<a href="https://drive.google.com/file/d/1XADghy4C0PWW03jkAkpOiRHkFuLIOXwR/view?usp=sharing">
-  <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=stej07033&style=for-the-badge&color=2C9DF2&label=PROFILE+VIEWS" />
 
 </div>
 
-<br/>
+---
 
 ## 🧑‍💻 About Me
 
-- 🎓 B.Tech (Mechanical Engineering) transitioning into **Data Analytics**
-- 📊 Aspiring **Data Analyst** who turns raw data into clear business decisions
-- 💡 Comfortable across **SQL (PostgreSQL, MS SQL Server), Python, Excel** — currently learning **Power BI**
-- 📚 Practiced SQL from basic filtering through **CTEs, window functions, and subqueries**
-- 🚀 Open to **Data Analyst / Business Analyst / BI Analyst** opportunities
+🎓 **B.Tech – Mechanical Engineering**
 
-<br/>
+📊 Transitioning into **Data Analytics**
 
-## 🧰 Tools & Technologies
+💡 Passionate about transforming raw datasets into meaningful business insights.
+
+🔎 I enjoy working with:
+
+* SQL & PostgreSQL
+* Python & Pandas
+* Microsoft Excel
+* Power BI
+* Data Cleaning
+* Exploratory Data Analysis
+* Business Intelligence
+* Dashboard Development
+* KPI Analysis
+* Data Visualization
+
+🚀 Currently building practical analytics projects and improving my problem-solving skills through real-world datasets.
+
+🎯 **Career Goal:** Data Analyst | BI Analyst | Business Analyst
+
+---
+
+# 🧠 My Data Analytics Workflow
+
+```text
+             RAW DATA
+                 │
+                 ▼
+        ┌─────────────────┐
+        │   Data Cleaning │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │   SQL Analysis  │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Python / Pandas │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Excel / PowerBI │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Business Insight│
+        └────────┬────────┘
+                 │
+                 ▼
+              🚀 DECISION
+```
+
+---
+
+# 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,python,git,github&theme=dark" /><br/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+### 📊 Data Analytics
+
+<img src="https://skillicons.dev/icons?i=python,mysql,postgresql" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white">
 
 </div>
 
-<br/>
+---
 
-## 📈 Snapshot (animated)
+# 🚀 Featured Projects
+
+## 🎵 Spotify & YouTube SQL Analysis
+
+**PostgreSQL | Advanced SQL**
+
+Analyzed combined Spotify and YouTube data to discover music-performance insights.
+
+### 🔥 What I Worked On
+
+* Top streamed songs
+* Artist performance
+* Views & likes analysis
+* Engagement analysis
+* Ranking systems
+* Multi-metric artist reports
+
+### 🧠 SQL Concepts
+
+```text
+CTEs
+Subqueries
+GROUP BY
+HAVING
+RANK()
+DENSE_RANK()
+ROW_NUMBER()
+Aggregations
+Business KPIs
+```
+
+🔗 **Repository:**
+https://github.com/stej07033/Spotify-Youtube-Project
+
+---
+
+## 🍕 Pizza Sales Analytics
+
+**MS SQL Server + Excel**
+
+Business-focused sales analysis using SQL and Excel.
+
+### 📊 KPIs
+
+```text
+Total Revenue
+Total Orders
+Average Order Value
+Daily Sales
+Hourly Sales
+Category Performance
+Pizza Size Analysis
+Top / Bottom Products
+```
+
+### 🧠 SQL Concepts
+
+```text
+CASE
+TOP N
+Subqueries
+Aggregations
+Correlated Queries
+Percentage Calculations
+```
+
+🔗 **Repository:**
+https://github.com/stej07033/MSSQL-EXCEL_PROJECT1
+
+---
+
+## 📱 PhonePe Transactions Dashboard
+
+**Excel | Pivot Tables | Pivot Charts | Slicers**
+
+Interactive dashboard analyzing digital payment transactions.
+
+### 📊 Dashboard Metrics
+
+* Total Transaction Amount
+* Transaction Count
+* Average Transaction Value
+* Top Performing State
+* Transaction Type
+* Year Analysis
+* Quarter Analysis
+
+### 🎛️ Interactive Filters
+
+```text
+Year
+Quarter
+State
+Transaction Type
+```
+
+🔗 **Repository:**
+https://github.com/stej07033/Phonepe_Dashboard
+
+---
+
+## 👥 HR Analytics Dashboard
+
+**Excel | Pivot Tables | Slicers**
+
+Employee analytics dashboard designed to understand workforce trends.
+
+### 📊 Insights
+
+```text
+Employee Headcount
+Attrition Rate
+Average Age
+Job Satisfaction
+Department Analysis
+Employee Distribution
+```
+
+🔗 **Repository:**
+https://github.com/stej07033/HR-DASHBOARD
+
+---
+
+## 🍔 Swiggy Restaurant Analytics
+
+### 📌 Excel Dashboard
+
+**Excel | Pivot Tables | Charts | Slicers**
+
+Analyzed restaurant data across:
+
+```text
+Cuisine
+Restaurant
+Rating
+Price
+City
+State
+Veg / Non-Veg
+```
+
+🔗 Repository:
+https://github.com/stej07033/Swiggy_Excel
+
+---
+
+### 📌 Swiggy SQL Analysis
+
+**PostgreSQL**
+
+SQL-based restaurant analytics project covering:
+
+```text
+Filtering
+Sorting
+Aggregation
+Joins
+Window Functions
+Date Functions
+Business Analysis
+```
+
+🔗 Repository:
+https://github.com/stej07033/Swiggy_project_sql1
+
+---
+
+# 📂 Project Portfolio
+
+| Project              | Technology  | Focus                 |
+| -------------------- | ----------- | --------------------- |
+| 🎵 Spotify & YouTube | PostgreSQL  | Music Analytics       |
+| 🍕 Pizza Sales       | SQL + Excel | Sales Analytics       |
+| 📱 PhonePe           | Excel       | Transaction Analytics |
+| 👥 HR Dashboard      | Excel       | HR Analytics          |
+| 🍔 Swiggy Excel      | Excel       | Restaurant Analytics  |
+| 🍔 Swiggy SQL        | PostgreSQL  | SQL Analytics         |
+
+---
+
+# 🧩 SQL Skills
+
+```sql
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+LIMIT
+OFFSET
+JOIN
+LEFT JOIN
+INNER JOIN
+SELF JOIN
+CASE
+SUBQUERIES
+CTEs
+WINDOW FUNCTIONS
+RANK()
+DENSE_RANK()
+ROW_NUMBER()
+DATE FUNCTIONS
+AGGREGATIONS
+```
+
+### 💻 SQL Approach
+
+```text
+Business Question
+       ↓
+Understand Dataset
+       ↓
+Write SQL Query
+       ↓
+Validate Results
+       ↓
+Create KPI
+       ↓
+Generate Insight
+       ↓
+Business Decision
+```
+
+---
+
+# 🐍 Python Analytics
+
+### Libraries
+
+```python
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+```
+
+### Typical Workflow
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+
+df.head()
+
+df.info()
+
+df.describe()
+
+df.isnull().sum()
+
+df.drop_duplicates()
+
+df.groupby("category")["sales"].sum()
+
+df.sort_values("sales", ascending=False)
+```
+
+---
+
+# 📊 Excel Skills
+
+```text
+✔ Pivot Tables
+✔ Pivot Charts
+✔ Slicers
+✔ KPI Cards
+✔ Data Cleaning
+✔ Conditional Formatting
+✔ Lookup Functions
+✔ IF / SUMIF / COUNTIF
+✔ XLOOKUP
+✔ Data Analysis
+✔ Dashboard Development
+```
+
+---
+
+# 📈 Power BI
+
+Currently developing my Power BI skills for interactive business dashboards.
+
+### Learning Focus
+
+```text
+Power Query
+Data Modeling
+DAX
+KPI Cards
+Interactive Reports
+Filters
+Slicers
+Business Intelligence
+```
+
+---
+
+# 🎯 Analytics Mindset
 
 <div align="center">
 
-<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif" width="100%" style="max-width:480px">
-  <style>
-    .label { fill: #c9d1d9; font-size: 15px; }
-    .pct { fill: #c9d1d9; font-size: 13px; font-weight: bold; }
-    .title { fill: #58a6ff; font-size: 17px; font-weight: bold; }
-    .track { fill: #30363d; }
-  </style>
-  <text x="10" y="28" class="title">🎯 Focus Areas (self-assessed)</text>
-  <text x="10" y="65" class="label">SQL (PostgreSQL / MS SQL)</text>
-  <rect x="10" y="75" width="500" height="16" rx="8" class="track"/>
-  <rect x="10" y="75" width="0" height="16" rx="8" fill="#2C9DF2">
-    <animate attributeName="width" from="0" to="420" dur="1.4s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </rect>
-  <text x="530" y="87" class="pct">Strong</text>
-  <text x="10" y="115" class="label">Excel (Pivot Tables, Dashboards, Slicers)</text>
-  <rect x="10" y="125" width="500" height="16" rx="8" class="track"/>
-  <rect x="10" y="125" width="0" height="16" rx="8" fill="#3fb950">
-    <animate attributeName="width" from="0" to="400" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </rect>
-  <text x="530" y="137" class="pct">Strong</text>
-  <text x="10" y="165" class="label">Python (Pandas, NumPy)</text>
-  <rect x="10" y="175" width="500" height="16" rx="8" class="track"/>
-  <rect x="10" y="175" width="0" height="16" rx="8" fill="#d29922">
-    <animate attributeName="width" from="0" to="290" dur="1.4s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </rect>
-  <text x="530" y="187" class="pct">Growing</text>
-  <text x="10" y="215" class="label">Power BI</text>
-  <rect x="10" y="225" width="500" height="16" rx="8" class="track"/>
-  <rect x="10" y="225" width="0" height="16" rx="8" fill="#a371f7">
-    <animate attributeName="width" from="0" to="170" dur="1.4s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </rect>
-  <text x="530" y="237" class="pct">Learning</text>
-  <text x="10" y="270" font-size="11" fill="#8b949e">Bars reflect current focus, not certified proficiency levels.</text>
-</svg>
+### DATA
 
-<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif" width="100%" style="max-width:420px">
-  <style>
-    .title2 { fill: #58a6ff; font-size: 17px; font-weight: bold; }
-    .legend { fill: #c9d1d9; font-size: 14px; }
-    .sub { fill: #8b949e; font-size: 12px; }
-  </style>
-  <text x="10" y="28" class="title2">📦 My 6 Pinned Repos, By Tool</text>
-  <circle cx="120" cy="150" r="70" fill="none" stroke="#30363d" stroke-width="28"/>
-  <circle cx="120" cy="150" r="70" fill="none" stroke="#2C9DF2" stroke-width="28"
-          stroke-dasharray="440" stroke-dashoffset="440" transform="rotate(-90 120 150)">
-    <animate attributeName="stroke-dashoffset" from="440" to="220" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </circle>
-  <circle cx="120" cy="150" r="70" fill="none" stroke="#3fb950" stroke-width="28"
-          stroke-dasharray="440" stroke-dashoffset="440" transform="rotate(90 120 150)">
-    <animate attributeName="stroke-dashoffset" from="440" to="220" dur="1.3s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-  </circle>
-  <text x="120" y="145" text-anchor="middle" fill="#c9d1d9" font-size="26" font-weight="bold">6</text>
-  <text x="120" y="165" text-anchor="middle" fill="#8b949e" font-size="12">projects</text>
-  <rect x="240" y="90" width="14" height="14" fill="#2C9DF2"/>
-  <text x="262" y="102" class="legend">SQL projects — 3</text>
-  <text x="262" y="118" class="sub">Swiggy SQL, Pizza Sales SQL, Spotify/YouTube SQL</text>
-  <rect x="240" y="140" width="14" height="14" fill="#3fb950"/>
-  <text x="262" y="152" class="legend">Excel projects — 3</text>
-  <text x="262" y="168" class="sub">PhonePe, HR Dashboard, Swiggy Excel</text>
-  <text x="10" y="245" class="sub">Based on my 6 pinned repositories as of this README.</text>
-</svg>
+⬇️
+
+### CLEAN
+
+⬇️
+
+### ANALYZE
+
+⬇️
+
+### VISUALIZE
+
+⬇️
+
+### INSIGHT
+
+⬇️
+
+### DECISION 🚀
 
 </div>
 
-<br/>
+---
 
-## 📌 Featured Projects & Results
+# 📚 Currently Learning
 
-<details open>
-<summary><b>🎵 Spotify & YouTube SQL Analysis</b> — my most technically advanced project</summary>
-<br/>
+```text
+📊 Advanced Data Analytics
+🐍 Python for Data Analysis
+🧮 Advanced SQL
+📈 Power BI
+📐 Data Visualization
+💼 Business Intelligence
+🤖 AI for Data Analytics
+```
 
-**Repo:** [Spotify-Youtube-Project](https://github.com/stej07033/Spotify-Youtube-Project) &nbsp;|&nbsp; **Stack:** PostgreSQL
+---
 
-![CTEs](https://img.shields.io/badge/SQL-CTEs-2C9DF2?style=flat-square)
-![Window Functions](https://img.shields.io/badge/SQL-Window_Functions-2C9DF2?style=flat-square)
-![Subqueries](https://img.shields.io/badge/SQL-Subqueries-2C9DF2?style=flat-square)
-![Business Qs](https://img.shields.io/badge/40_Business_Questions-2C9DF2?style=flat-square)
+# 🏆 My Goals
 
-**What it does:** Analyzes a combined Spotify + YouTube dataset (streams, views, likes, danceability, energy, etc.) to answer 40 business questions — from "top 10 most streamed songs" to artist performance reports ranked with `DENSE_RANK()`.
+* 🚀 Become a professional Data Analyst
+* 📊 Build industry-level analytics projects
+* 🧠 Improve advanced SQL skills
+* 🐍 Master Python for analytics
+* 📈 Build professional Power BI dashboards
+* 💼 Solve real-world business problems
+* 🌎 Contribute to data-driven decision making
 
-**Techniques demonstrated:** `RANK()`, `ROW_NUMBER()`, `DENSE_RANK()` for leaderboards; CTEs for readable multi-step logic; `HAVING` + subqueries to filter on aggregated values (e.g. artists with >1B total streams); a final artist performance report combining 7 metrics with a stream-based ranking.
+---
 
-</details>
-
-<details>
-<summary><b>🍕 Pizza Sales SQL + Excel Analysis</b></summary>
-<br/>
-
-**Repo:** [MSSQL-EXCEL_PROJECT1](https://github.com/stej07033/MSSQL-EXCEL_PROJECT1) &nbsp;|&nbsp; **Stack:** MS SQL Server, Excel
-
-![KPIs](https://img.shields.io/badge/5_Core_KPIs-2C9DF2?style=flat-square)
-![Trend Analysis](https://img.shields.io/badge/Daily_%2F_Hourly_Trends-2C9DF2?style=flat-square)
-![Tiering Logic](https://img.shields.io/badge/CASE_Based_Rating_Tiers-2C9DF2?style=flat-square)
-
-**What it does:** A full year (2015) of pizza order line items analyzed for Total Revenue, Average Order Value, Total Orders, daily/hourly ordering trends, and sales mix by category and size — paired with a pivot-table Excel dashboard.
-
-**Techniques demonstrated:** Custom business logic using `CASE` to grade products into performance tiers (Excellent/Good/Average by revenue and order count), `%`-of-total calculations via correlated subqueries, `TOP N` queries for best/worst sellers.
-
-</details>
-
-<details>
-<summary><b>📱 PhonePe Transactions Dashboard (Excel)</b></summary>
-<br/>
-
-**Repo:** [Phonepe_Dashboard](https://github.com/stej07033/Phonepe_Dashboard) &nbsp;|&nbsp; **Stack:** Excel (Pivot Tables, Pivot Charts, Slicers)
-
-![Interactive](https://img.shields.io/badge/Interactive_Slicers-2C9DF2?style=flat-square)
-![KPI Cards](https://img.shields.io/badge/KPI_Cards-2C9DF2?style=flat-square)
-
-**What it does:** Analyzes PhonePe digital-payment transaction records (state, quarter, year, transaction type) via KPI cards for total amount, transaction count, average transaction value, and top-performing state, with year/quarter/state/type filters.
-
-</details>
-
-<details>
-<summary><b>👥 HR Analytics Dashboard (Excel)</b></summary>
-<br/>
-
-**Repo:** [HR-DASHBOARD](https://github.com/stej07033/HR-DASHBOARD) &nbsp;|&nbsp; **Stack:** Excel
-
-![Attrition Analysis](https://img.shields.io/badge/Attrition_Analysis-2C9DF2?style=flat-square)
-![Demographics](https://img.shields.io/badge/Workforce_Demographics-2C9DF2?style=flat-square)
-
-**What it does:** Analyzes employee records for headcount, attrition rate, average age, average job satisfaction, and department-wise breakdowns using pivot tables and slicers.
-
-</details>
-
-<details>
-<summary><b>🍔 Swiggy Restaurant Dashboard (Excel)</b></summary>
-<br/>
-
-**Repo:** [Swiggy_Excel](https://github.com/stej07033/Swiggy_Excel) &nbsp;|&nbsp; **Stack:** Excel
-
-**What it does:** Analyzes restaurant name, cuisine, veg/non-veg split, price, rating, city, and state to compare pricing and ratings across cuisines and locations.
-
-</details>
-
-<details>
-<summary><b>🍔 Swiggy Restaurant SQL Analysis</b></summary>
-<br/>
-
-**Repo:** [Swiggy_project_sql1](https://github.com/stej07033/Swiggy_project_sql1) &nbsp;|&nbsp; **Stack:** PostgreSQL
-
-**What it does:** SQL practice covering filtering, sorting, aggregation, joins, window functions, and date functions on restaurant data.
-
-⚠️ **Known issue:** this repo's dataset section currently links to an unrelated Kaggle Netflix notebook — worth fixing before a recruiter opens it.
-
-</details>
-
-<br/>
-
-## 📊 GitHub Stats
+# 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=stej07033&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=stej07033&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 
-<br/>
+<br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stej07033&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
-## 🏆 Trophies
+---
+
+# 🔥 Contribution Streak
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=stej07033&theme=tokyonight&no-frame=true&row=1&column=6" />
+
+<img src="https://streak-stats.demolab.com?user=stej07033&theme=tokyonight&hide_border=true" />
+
 </div>
 
-## 🐍 Contribution Snake
+---
+
+# 🐍 Contribution Snake
 
 <div align="center">
+
 <img src="https://raw.githubusercontent.com/stej07033/stej07033/output/github-contribution-grid-snake.svg" />
+
 </div>
 
-<sub>⚠️ Needs a one-time GitHub Actions workflow set up — see setup notes below.</sub>
+---
 
-## 📈 Contribution Activity
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=stej07033&theme=tokyo-night&hide_border=true" />
-</div>
-
-<br/>
+# 📈 Contribution Activity
 
 <div align="center">
 
-### 📫 Let's Connect
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=stej07033&theme=tokyo-night&hide_border=true&area=true" />
 
-<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</div>
+
+---
+
+# 💡 Data Analyst DNA
+
+```text
+       CURIOUS
+          │
+          ▼
+       QUESTION
+          │
+          ▼
+        DATA
+          │
+          ▼
+       ANALYSIS
+          │
+          ▼
+       INSIGHT
+          │
+          ▼
+       ACTION
+          │
+          ▼
+        IMPACT 🚀
+```
+
+---
+
+# 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/stej07033">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="mailto:youremail@example.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+
+<a href="https://www.linkedin.com/in/madanapalli-sai-19b835389/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<br/><br/>
+<a href="https://www.instagram.com/_saitej07/">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
+</div>
+
+---
+
+<div align="center">
+
+### 💭 "Data becomes powerful when it leads to better decisions."
+
+### 🚀 Building. Analyzing. Learning. Growing.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0066FF&height=120&section=footer"/>
 
 </div>
