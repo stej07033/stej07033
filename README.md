@@ -44,6 +44,76 @@
 
 <br/>
 
+## 📈 Snapshot (animated)
+
+<div align="center">
+
+<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif" width="100%" style="max-width:480px">
+  <style>
+    .label { fill: #c9d1d9; font-size: 15px; }
+    .pct { fill: #c9d1d9; font-size: 13px; font-weight: bold; }
+    .title { fill: #58a6ff; font-size: 17px; font-weight: bold; }
+    .track { fill: #30363d; }
+  </style>
+  <text x="10" y="28" class="title">🎯 Focus Areas (self-assessed)</text>
+  <text x="10" y="65" class="label">SQL (PostgreSQL / MS SQL)</text>
+  <rect x="10" y="75" width="500" height="16" rx="8" class="track"/>
+  <rect x="10" y="75" width="0" height="16" rx="8" fill="#2C9DF2">
+    <animate attributeName="width" from="0" to="420" dur="1.4s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="530" y="87" class="pct">Strong</text>
+  <text x="10" y="115" class="label">Excel (Pivot Tables, Dashboards, Slicers)</text>
+  <rect x="10" y="125" width="500" height="16" rx="8" class="track"/>
+  <rect x="10" y="125" width="0" height="16" rx="8" fill="#3fb950">
+    <animate attributeName="width" from="0" to="400" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="530" y="137" class="pct">Strong</text>
+  <text x="10" y="165" class="label">Python (Pandas, NumPy)</text>
+  <rect x="10" y="175" width="500" height="16" rx="8" class="track"/>
+  <rect x="10" y="175" width="0" height="16" rx="8" fill="#d29922">
+    <animate attributeName="width" from="0" to="290" dur="1.4s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="530" y="187" class="pct">Growing</text>
+  <text x="10" y="215" class="label">Power BI</text>
+  <rect x="10" y="225" width="500" height="16" rx="8" class="track"/>
+  <rect x="10" y="225" width="0" height="16" rx="8" fill="#a371f7">
+    <animate attributeName="width" from="0" to="170" dur="1.4s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="530" y="237" class="pct">Learning</text>
+  <text x="10" y="270" font-size="11" fill="#8b949e">Bars reflect current focus, not certified proficiency levels.</text>
+</svg>
+
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif" width="100%" style="max-width:420px">
+  <style>
+    .title2 { fill: #58a6ff; font-size: 17px; font-weight: bold; }
+    .legend { fill: #c9d1d9; font-size: 14px; }
+    .sub { fill: #8b949e; font-size: 12px; }
+  </style>
+  <text x="10" y="28" class="title2">📦 My 6 Pinned Repos, By Tool</text>
+  <circle cx="120" cy="150" r="70" fill="none" stroke="#30363d" stroke-width="28"/>
+  <circle cx="120" cy="150" r="70" fill="none" stroke="#2C9DF2" stroke-width="28"
+          stroke-dasharray="440" stroke-dashoffset="440" transform="rotate(-90 120 150)">
+    <animate attributeName="stroke-dashoffset" from="440" to="220" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <circle cx="120" cy="150" r="70" fill="none" stroke="#3fb950" stroke-width="28"
+          stroke-dasharray="440" stroke-dashoffset="440" transform="rotate(90 120 150)">
+    <animate attributeName="stroke-dashoffset" from="440" to="220" dur="1.3s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+  </circle>
+  <text x="120" y="145" text-anchor="middle" fill="#c9d1d9" font-size="26" font-weight="bold">6</text>
+  <text x="120" y="165" text-anchor="middle" fill="#8b949e" font-size="12">projects</text>
+  <rect x="240" y="90" width="14" height="14" fill="#2C9DF2"/>
+  <text x="262" y="102" class="legend">SQL projects — 3</text>
+  <text x="262" y="118" class="sub">Swiggy SQL, Pizza Sales SQL, Spotify/YouTube SQL</text>
+  <rect x="240" y="140" width="14" height="14" fill="#3fb950"/>
+  <text x="262" y="152" class="legend">Excel projects — 3</text>
+  <text x="262" y="168" class="sub">PhonePe, HR Dashboard, Swiggy Excel</text>
+  <text x="10" y="245" class="sub">Based on my 6 pinned repositories as of this README.</text>
+</svg>
+
+</div>
+
+<br/>
+
 ## 📌 Featured Projects & Results
 
 <details open>
