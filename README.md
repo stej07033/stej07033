@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- Animated wave banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20There,%20I'm%20Sai%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-<!-- Animated typing subtitle -->
 <a href="https://github.com/stej07033">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2C9DF2&center=true&vCenter=true&width=650&lines=Aspiring+Data+Analyst;SQL+%7C+PostgreSQL+%7C+Python+%7C+Excel+%7C+Power+BI;Turning+Raw+Data+Into+Business+Insights;Open+to+Data+Analyst+Opportunities+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
@@ -46,32 +44,103 @@
 
 <br/>
 
-## 📌 Featured Projects
+## 📌 Featured Projects & Results
 
-<div align="center">
+<!-- Repeat this block per project. Replace the screenshot URL, KPI numbers, and insights with your real ones. -->
 
-<a href="https://github.com/stej07033/Swiggy_project_sql1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=Swiggy_project_sql1&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/stej07033/MSSQL-EXCEL_PROJECT1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=MSSQL-EXCEL_PROJECT1&theme=tokyonight&hide_border=true" />
-</a>
+<details open>
+<summary><b>🍔 Swiggy Restaurant Analysis (SQL)</b></summary>
 <br/>
-<a href="https://github.com/stej07033/Phonepe_Dashboard">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=Phonepe_Dashboard&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/stej07033/Swiggy_Excel">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=Swiggy_Excel&theme=tokyonight&hide_border=true" />
-</a>
-<br/>
-<a href="https://github.com/stej07033/HR-DASHBOARD">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=HR-DASHBOARD&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/stej07033/Spotify-Youtube-Project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=stej07033&repo=Spotify-Youtube-Project&theme=tokyonight&hide_border=true" />
-</a>
 
-</div>
+**Repo:** [Swiggy_project_sql1](https://github.com/stej07033/Swiggy_project_sql1) &nbsp;|&nbsp; **Stack:** PostgreSQL
+
+**Business problem:** 🔧 [e.g. "Which cuisines and cities drive the highest-rated restaurants, and where is customer satisfaction weakest?"]
+
+<img src="https://raw.githubusercontent.com/stej07033/Swiggy_project_sql1/main/assets/dashboard-screenshot.png" width="600"/>
+<sub>🔧 Replace this image path with a real screenshot/GIF from your repo (put it in an `assets/` folder).</sub>
+
+**Key results:**
+
+![Restaurants Analyzed](https://img.shields.io/badge/Restaurants_Analyzed-🔧_XXX-2C9DF2?style=flat-square)
+![Avg Rating](https://img.shields.io/badge/Avg_Rating-🔧_X.X★-2C9DF2?style=flat-square)
+![Top Cuisine](https://img.shields.io/badge/Top_Cuisine-🔧_TBD-2C9DF2?style=flat-square)
+
+- 🔧 Insight 1 (e.g. "North Indian restaurants had the highest average rating across all cities analyzed")
+- 🔧 Insight 2
+- 🔧 Business recommendation based on the above
+
+</details>
+
+<details>
+<summary><b>🍕 Pizza Sales Analysis (SQL + Excel)</b></summary>
+<br/>
+
+**Repo:** [MSSQL-EXCEL_PROJECT1](https://github.com/stej07033/MSSQL-EXCEL_PROJECT1) &nbsp;|&nbsp; **Stack:** MS SQL Server, Excel
+
+**Business problem:** 🔧 [fill in]
+
+![Total Revenue](https://img.shields.io/badge/Total_Revenue-🔧_$XX,XXX-2C9DF2?style=flat-square)
+![Best Selling Category](https://img.shields.io/badge/Best_Category-🔧_TBD-2C9DF2?style=flat-square)
+![Peak Order Hour](https://img.shields.io/badge/Peak_Hour-🔧_TBD-2C9DF2?style=flat-square)
+
+- 🔧 Insight 1
+- 🔧 Insight 2
+- 🔧 Business recommendation
+
+</details>
+
+<details>
+<summary><b>📱 PhonePe Transactions Dashboard (Excel)</b></summary>
+<br/>
+
+**Repo:** [Phonepe_Dashboard](https://github.com/stej07033/Phonepe_Dashboard) &nbsp;|&nbsp; **Stack:** Excel (Pivot Charts, Slicers)
+
+![Transaction Volume](https://img.shields.io/badge/Transactions-🔧_XXM-2C9DF2?style=flat-square)
+![Top State](https://img.shields.io/badge/Top_State-🔧_TBD-2C9DF2?style=flat-square)
+![YoY Growth](https://img.shields.io/badge/YoY_Growth-🔧_XX%25-2C9DF2?style=flat-square)
+
+- 🔧 Insight 1
+- 🔧 Insight 2
+
+</details>
+
+<details>
+<summary><b>🍔 Swiggy Performance Dashboard (Excel)</b></summary>
+<br/>
+
+**Repo:** [Swiggy_Excel](https://github.com/stej07033/Swiggy_Excel) &nbsp;|&nbsp; **Stack:** Excel
+
+- 🔧 Business problem
+- 🔧 Key insight 1
+- 🔧 Key insight 2
+
+</details>
+
+<details>
+<summary><b>👥 HR Analytics Dashboard (Excel)</b></summary>
+<br/>
+
+**Repo:** [HR-DASHBOARD](https://github.com/stej07033/HR-DASHBOARD) &nbsp;|&nbsp; **Stack:** Excel
+
+![Attrition Rate](https://img.shields.io/badge/Attrition_Rate-🔧_XX%25-2C9DF2?style=flat-square)
+![Headcount](https://img.shields.io/badge/Headcount-🔧_XXX-2C9DF2?style=flat-square)
+
+- 🔧 Insight 1
+- 🔧 Insight 2
+
+</details>
+
+<details>
+<summary><b>🎵 Spotify vs YouTube Analysis (Python)</b></summary>
+<br/>
+
+**Repo:** [Spotify-Youtube-Project](https://github.com/stej07033/Spotify-Youtube-Project) &nbsp;|&nbsp; **Stack:** Python, Pandas
+
+- 🔧 Business problem
+- 🔧 Key insight 1
+- 🔧 Key insight 2
+
+</details>
 
 <br/>
 
@@ -88,7 +157,11 @@
 
 </div>
 
-<br/>
+## 🏆 Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=stej07033&theme=tokyonight&no-frame=true&row=1&column=6" />
+</div>
 
 ## 🐍 Contribution Snake
 
@@ -96,11 +169,9 @@
 <img src="https://raw.githubusercontent.com/stej07033/stej07033/output/github-contribution-grid-snake.svg" />
 </div>
 
-<sub>⚠️ The snake animation above needs a one-time GitHub Actions setup — see note below.</sub>
+<sub>⚠️ Needs the GitHub Actions workflow (snake.yml) set up once — see setup notes.</sub>
 
-<br/>
-
-## 📈 Contribution Graph
+## 📈 Contribution Activity
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=stej07033&theme=tokyo-night&hide_border=true" />
