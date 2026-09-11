@@ -22,11 +22,11 @@
 
 ## 🧑‍💻 About Me
 
-- 📊 Aspiring **Data Analyst** who turns messy data into clear business decisions
-- 💡 Comfortable across the full analytics stack — **SQL, Python, Excel, Power BI**
-- 📚 Currently sharpening advanced SQL (joins, CTEs, window functions) and Power BI (data modeling, DAX)
+- 🎓 B.Tech (Mechanical Engineering) transitioning into **Data Analytics**
+- 📊 Aspiring **Data Analyst** who turns raw data into clear business decisions
+- 💡 Comfortable across **SQL (PostgreSQL, MS SQL Server), Python, Excel** — currently learning **Power BI**
+- 📚 Practiced SQL from basic filtering through **CTEs, window functions, and subqueries**
 - 🚀 Open to **Data Analyst / Business Analyst / BI Analyst** opportunities
-- ⚡ Fun fact: I'd rather find one real insight than make ten pretty charts
 
 <br/>
 
@@ -46,46 +46,36 @@
 
 ## 📌 Featured Projects & Results
 
-<!-- Repeat this block per project. Replace the screenshot URL, KPI numbers, and insights with your real ones. -->
-
 <details open>
-<summary><b>🍔 Swiggy Restaurant Analysis (SQL)</b></summary>
+<summary><b>🎵 Spotify & YouTube SQL Analysis</b> — my most technically advanced project</summary>
 <br/>
 
-**Repo:** [Swiggy_project_sql1](https://github.com/stej07033/Swiggy_project_sql1) &nbsp;|&nbsp; **Stack:** PostgreSQL
+**Repo:** [Spotify-Youtube-Project](https://github.com/stej07033/Spotify-Youtube-Project) &nbsp;|&nbsp; **Stack:** PostgreSQL
 
-**Business problem:** 🔧 [e.g. "Which cuisines and cities drive the highest-rated restaurants, and where is customer satisfaction weakest?"]
+![CTEs](https://img.shields.io/badge/SQL-CTEs-2C9DF2?style=flat-square)
+![Window Functions](https://img.shields.io/badge/SQL-Window_Functions-2C9DF2?style=flat-square)
+![Subqueries](https://img.shields.io/badge/SQL-Subqueries-2C9DF2?style=flat-square)
+![Business Qs](https://img.shields.io/badge/40_Business_Questions-2C9DF2?style=flat-square)
 
-<img src="https://raw.githubusercontent.com/stej07033/Swiggy_project_sql1/main/assets/dashboard-screenshot.png" width="600"/>
-<sub>🔧 Replace this image path with a real screenshot/GIF from your repo (put it in an `assets/` folder).</sub>
+**What it does:** Analyzes a combined Spotify + YouTube dataset (streams, views, likes, danceability, energy, etc.) to answer 40 business questions — from "top 10 most streamed songs" to artist performance reports ranked with `DENSE_RANK()`.
 
-**Key results:**
-
-![Restaurants Analyzed](https://img.shields.io/badge/Restaurants_Analyzed-🔧_XXX-2C9DF2?style=flat-square)
-![Avg Rating](https://img.shields.io/badge/Avg_Rating-🔧_X.X★-2C9DF2?style=flat-square)
-![Top Cuisine](https://img.shields.io/badge/Top_Cuisine-🔧_TBD-2C9DF2?style=flat-square)
-
-- 🔧 Insight 1 (e.g. "North Indian restaurants had the highest average rating across all cities analyzed")
-- 🔧 Insight 2
-- 🔧 Business recommendation based on the above
+**Techniques demonstrated:** `RANK()`, `ROW_NUMBER()`, `DENSE_RANK()` for leaderboards; CTEs for readable multi-step logic; `HAVING` + subqueries to filter on aggregated values (e.g. artists with >1B total streams); a final artist performance report combining 7 metrics with a stream-based ranking.
 
 </details>
 
 <details>
-<summary><b>🍕 Pizza Sales Analysis (SQL + Excel)</b></summary>
+<summary><b>🍕 Pizza Sales SQL + Excel Analysis</b></summary>
 <br/>
 
 **Repo:** [MSSQL-EXCEL_PROJECT1](https://github.com/stej07033/MSSQL-EXCEL_PROJECT1) &nbsp;|&nbsp; **Stack:** MS SQL Server, Excel
 
-**Business problem:** 🔧 [fill in]
+![KPIs](https://img.shields.io/badge/5_Core_KPIs-2C9DF2?style=flat-square)
+![Trend Analysis](https://img.shields.io/badge/Daily_%2F_Hourly_Trends-2C9DF2?style=flat-square)
+![Tiering Logic](https://img.shields.io/badge/CASE_Based_Rating_Tiers-2C9DF2?style=flat-square)
 
-![Total Revenue](https://img.shields.io/badge/Total_Revenue-🔧_$XX,XXX-2C9DF2?style=flat-square)
-![Best Selling Category](https://img.shields.io/badge/Best_Category-🔧_TBD-2C9DF2?style=flat-square)
-![Peak Order Hour](https://img.shields.io/badge/Peak_Hour-🔧_TBD-2C9DF2?style=flat-square)
+**What it does:** A full year (2015) of pizza order line items analyzed for Total Revenue, Average Order Value, Total Orders, daily/hourly ordering trends, and sales mix by category and size — paired with a pivot-table Excel dashboard.
 
-- 🔧 Insight 1
-- 🔧 Insight 2
-- 🔧 Business recommendation
+**Techniques demonstrated:** Custom business logic using `CASE` to grade products into performance tiers (Excellent/Good/Average by revenue and order count), `%`-of-total calculations via correlated subqueries, `TOP N` queries for best/worst sellers.
 
 </details>
 
@@ -93,26 +83,12 @@
 <summary><b>📱 PhonePe Transactions Dashboard (Excel)</b></summary>
 <br/>
 
-**Repo:** [Phonepe_Dashboard](https://github.com/stej07033/Phonepe_Dashboard) &nbsp;|&nbsp; **Stack:** Excel (Pivot Charts, Slicers)
+**Repo:** [Phonepe_Dashboard](https://github.com/stej07033/Phonepe_Dashboard) &nbsp;|&nbsp; **Stack:** Excel (Pivot Tables, Pivot Charts, Slicers)
 
-![Transaction Volume](https://img.shields.io/badge/Transactions-🔧_XXM-2C9DF2?style=flat-square)
-![Top State](https://img.shields.io/badge/Top_State-🔧_TBD-2C9DF2?style=flat-square)
-![YoY Growth](https://img.shields.io/badge/YoY_Growth-🔧_XX%25-2C9DF2?style=flat-square)
+![Interactive](https://img.shields.io/badge/Interactive_Slicers-2C9DF2?style=flat-square)
+![KPI Cards](https://img.shields.io/badge/KPI_Cards-2C9DF2?style=flat-square)
 
-- 🔧 Insight 1
-- 🔧 Insight 2
-
-</details>
-
-<details>
-<summary><b>🍔 Swiggy Performance Dashboard (Excel)</b></summary>
-<br/>
-
-**Repo:** [Swiggy_Excel](https://github.com/stej07033/Swiggy_Excel) &nbsp;|&nbsp; **Stack:** Excel
-
-- 🔧 Business problem
-- 🔧 Key insight 1
-- 🔧 Key insight 2
+**What it does:** Analyzes PhonePe digital-payment transaction records (state, quarter, year, transaction type) via KPI cards for total amount, transaction count, average transaction value, and top-performing state, with year/quarter/state/type filters.
 
 </details>
 
@@ -122,23 +98,32 @@
 
 **Repo:** [HR-DASHBOARD](https://github.com/stej07033/HR-DASHBOARD) &nbsp;|&nbsp; **Stack:** Excel
 
-![Attrition Rate](https://img.shields.io/badge/Attrition_Rate-🔧_XX%25-2C9DF2?style=flat-square)
-![Headcount](https://img.shields.io/badge/Headcount-🔧_XXX-2C9DF2?style=flat-square)
+![Attrition Analysis](https://img.shields.io/badge/Attrition_Analysis-2C9DF2?style=flat-square)
+![Demographics](https://img.shields.io/badge/Workforce_Demographics-2C9DF2?style=flat-square)
 
-- 🔧 Insight 1
-- 🔧 Insight 2
+**What it does:** Analyzes employee records for headcount, attrition rate, average age, average job satisfaction, and department-wise breakdowns using pivot tables and slicers.
 
 </details>
 
 <details>
-<summary><b>🎵 Spotify vs YouTube Analysis (Python)</b></summary>
+<summary><b>🍔 Swiggy Restaurant Dashboard (Excel)</b></summary>
 <br/>
 
-**Repo:** [Spotify-Youtube-Project](https://github.com/stej07033/Spotify-Youtube-Project) &nbsp;|&nbsp; **Stack:** Python, Pandas
+**Repo:** [Swiggy_Excel](https://github.com/stej07033/Swiggy_Excel) &nbsp;|&nbsp; **Stack:** Excel
 
-- 🔧 Business problem
-- 🔧 Key insight 1
-- 🔧 Key insight 2
+**What it does:** Analyzes restaurant name, cuisine, veg/non-veg split, price, rating, city, and state to compare pricing and ratings across cuisines and locations.
+
+</details>
+
+<details>
+<summary><b>🍔 Swiggy Restaurant SQL Analysis</b></summary>
+<br/>
+
+**Repo:** [Swiggy_project_sql1](https://github.com/stej07033/Swiggy_project_sql1) &nbsp;|&nbsp; **Stack:** PostgreSQL
+
+**What it does:** SQL practice covering filtering, sorting, aggregation, joins, window functions, and date functions on restaurant data.
+
+⚠️ **Known issue:** this repo's dataset section currently links to an unrelated Kaggle Netflix notebook — worth fixing before a recruiter opens it.
 
 </details>
 
@@ -169,7 +154,7 @@
 <img src="https://raw.githubusercontent.com/stej07033/stej07033/output/github-contribution-grid-snake.svg" />
 </div>
 
-<sub>⚠️ Needs the GitHub Actions workflow (snake.yml) set up once — see setup notes.</sub>
+<sub>⚠️ Needs a one-time GitHub Actions workflow set up — see setup notes below.</sub>
 
 ## 📈 Contribution Activity
 
